@@ -1,31 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap");
-html .main-faq {
-  background-color: #F2C791;
-}
-html .main-faq .main-faq h2 {
-  font-size: 5rem;
-  display: flex;
-  justify-content: center;
-  padding: 5rem;
-}
-html .main-faq .main-faq section {
-  padding-left: 5rem;
-  margin-right: 0;
-  display: flex;
-  flex-direction: column;
-}
-html .main-faq .main-faq section article {
-  margin: 4rem 0 4rem 0;
-}
-html .main-faq .main-faq section article h3 {
-  font-weight: 700;
-  font-size: 4rem;
-  padding-bottom: 1rem;
-}
-html .main-faq .main-faq section article p {
-  font-size: 3rem;
-}
-
 * {
   padding: 0;
   margin: 0 auto;
@@ -198,4 +171,482 @@ html .copyright svg {
   margin-right: 0.5rem;
   color: antiquewhite;
   margin-left: 0;
+}
+html .main-index {
+  background-color: #F2C791;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+html .main-index p {
+  font-size: 5rem;
+  display: flex;
+  padding-bottom: 4rem;
+}
+html .main-index .oferta {
+  height: 10rem;
+  width: auto;
+}
+html .main-faq {
+  background-color: #F2C791;
+}
+html .main-faq h2 {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+html .main-faq section {
+  padding-left: 5rem;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+html .main-faq section article {
+  margin: 4rem 0 4rem 0;
+}
+html .main-faq section article h3 {
+  font-weight: 700;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+html .main-faq section article p {
+  font-size: 3rem;
+}
+html .main-nosotros {
+  background-color: #F2C791;
+}
+html .main-nosotros h2 {
+  font-size: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  display: flex;
+  justify-content: center;
+}
+html .main-nosotros .parallax {
+  background-image: url(../assets/tienda3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+html .main-nosotros .nosotros-cuerpo {
+  padding-top: 7rem;
+  display: flex;
+}
+html .main-nosotros .nosotros-cuerpo .tienda1, html .main-nosotros .nosotros-cuerpo .tienda2, html .main-nosotros .nosotros-cuerpo .tienda4, html .main-nosotros .nosotros-cuerpo .tienda5 {
+  margin-bottom: 3rem;
+  height: 50rem;
+  width: auto;
+}
+html .main-nosotros .nosotros-cuerpo article {
+  font-size: 2.5rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html .main-nosotros .nosotros-cuerpo article p {
+  margin: 0;
+}
+html .contacto {
+  background-color: #F2C791;
+}
+html .contacto section {
+  display: flex;
+  flex-direction: column;
+}
+html .contacto section h2 {
+  font-size: 10rem;
+  justify-content: center;
+  display: flex;
+}
+html .contacto section .formulario {
+  display: flex;
+  margin: 0;
+  padding-bottom: 3rem;
+  justify-content: space-evenly;
+}
+html .contacto section .formulario form {
+  width: 50rem;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+html .contacto section .formulario form label {
+  font-size: 3rem;
+  margin: 0;
+}
+html .contacto section .formulario form input {
+  margin: 0;
+}
+html .contacto section .formulario form textarea {
+  margin: 0;
+}
+html .contacto section .formulario p {
+  font-size: 5rem;
+  margin: 0;
+  padding-right: 1rem;
+  width: 100rem;
+}
+html .contacto section iframe {
+  width: 100%;
+}
+html .layout {
+  background-color: #F2C791;
+  display: grid;
+  grid-row-gap: 10rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.2fr 1fr 1fr 0.5fr 0.5fr;
+  grid-template-areas: "main main main main main main" "img1 img1 tele tele tele tele" "gibson gibson gibson gibson img2 img2" "img3 img3 img3 img3 sg sg" "taylor taylor img4 img4 img4 img4";
+}
+html .layout main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html .layout main h2 {
+  font-size: 4.5rem;
+}
+html .layout main p {
+  padding: 3rem 5rem 0 5rem;
+  font-size: 3rem;
+}
+html .layout .img1 {
+  height: 140rem;
+  width: auto;
+  grid-area: img1;
+}
+html .layout .telecaster {
+  padding-right: 5rem;
+  grid-area: tele;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html .layout .telecaster h2 {
+  font-size: 4rem;
+  margin: 7rem auto auto 7rem;
+}
+html .layout .telecaster p {
+  font-size: 3rem;
+  margin-bottom: 60rem;
+}
+html .layout .img2 {
+  height: 140rem;
+  width: auto;
+  grid-area: img2;
+}
+html .layout .gibson {
+  grid-area: gibson;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html .layout .gibson h2 {
+  font-size: 4rem;
+  margin: 7rem 7rem auto auto;
+}
+html .layout .gibson p {
+  font-size: 3rem;
+  margin-bottom: 60rem;
+}
+html .layout .box-img3 {
+  height: auto;
+  width: auto;
+  grid-area: img3;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html .layout .box-img3 img {
+  margin: 0 7rem 0 5rem;
+}
+html .layout .GibsonSg {
+  padding-right: 5rem;
+  grid-area: sg;
+  display: flex;
+  flex-direction: column;
+}
+html .layout .GibsonSg h2 {
+  font-size: 4rem;
+  margin: 15rem;
+}
+html .layout .GibsonSg p {
+  font-size: 3rem;
+}
+html .layout .layout .box-img4 {
+  height: auto;
+  width: 100%;
+  grid-area: img4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html .layout .layout .box-img4 img {
+  height: 42rem;
+}
+html .layout .taylor {
+  padding-left: 5rem;
+  grid-area: taylor;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+html .layout .taylor h2 {
+  font-size: 4rem;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+html .layout .taylor p {
+  font-size: 3rem;
+  margin-bottom: 15rem;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  html body {
+    width: 100%;
+    max-width: 767px;
+  }
+  html body header {
+    width: 100%;
+  }
+  html body header div {
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 100%;
+  }
+  html body header div .logonav {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 50%;
+  }
+  html body header div .logonav img {
+    height: 7rem;
+    width: 7rem;
+  }
+  html body header div .titulo {
+    font-size: 3.2rem;
+    margin-top: 3rem;
+    height: 5rem;
+  }
+  html body header div .redes {
+    margin: 0rem 1rem 0 0rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  html body header div .redes svg {
+    height: 2rem;
+    width: 2rem;
+  }
+  html body header .instrumentos {
+    font-size: 1.5rem;
+  }
+  html body .nav-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  html body .nav-footer .logonav {
+    display: none;
+  }
+  html body .nav-footer .datos {
+    justify-content: space-around;
+    height: 12rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+  }
+  html body .nav-footer .datos p {
+    font-size: 1.3rem;
+  }
+  html body .nav-footer .datos svg {
+    height: 2rem;
+    width: auto;
+  }
+  html body .nav-footer ul {
+    font-size: 1.3rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    justify-content: flex-start;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  html body .nav-footer ul li {
+    margin: 0;
+  }
+  html body .nav-footer h2 {
+    font-size: 3rem;
+    margin: 0.5rem auto;
+  }
+  html body .copyright {
+    font-size: 1.5rem;
+  }
+  html body .copyright svg {
+    height: 1.5rem;
+    margin: 0.3rem 0.3rem 0 0.3rem;
+  }
+  html body .main-index p {
+    font-size: 2rem;
+  }
+  html body .main-faq section article h3 {
+    padding-right: 2rem;
+  }
+  html body .main-faq section article p {
+    padding-right: 2rem;
+    font-size: 2.5rem;
+  }
+  html body .contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  html body .contacto section {
+    width: 100%;
+  }
+  html body .contacto section h2 {
+    font-size: 4rem;
+  }
+  html body .contacto section p {
+    font-size: 2rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+  html body .contacto section .formulario {
+    width: 100%;
+    flex-direction: column;
+  }
+  html body .contacto section .formulario form {
+    width: 100%;
+  }
+  html body .contacto section .formulario p {
+    width: 100%;
+  }
+  html body .main-nosotros {
+    width: 100%;
+  }
+  html body .main-nosotros .parallax {
+    width: 100%;
+  }
+  html body .main-nosotros h2 {
+    font-size: 5rem;
+  }
+  html body .main-nosotros .nosotros-cuerpo {
+    width: 100%;
+  }
+  html body .main-nosotros .nosotros-cuerpo .tienda1, html body .main-nosotros .nosotros-cuerpo .tienda2, html body .main-nosotros .nosotros-cuerpo .tienda4, html body .main-nosotros .nosotros-cuerpo .tienda5 {
+    display: none;
+  }
+  html body .main-nosotros .nosotros-cuerpo article p {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  html body {
+    width: 100%;
+    max-width: 1200px;
+  }
+  html body header {
+    width: 100%;
+  }
+  html body header div {
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 100%;
+  }
+  html body header div .logonav {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 50%;
+  }
+  html body header div .logonav img {
+    height: 7rem;
+    width: 7rem;
+  }
+  html body header div .titulo {
+    font-size: 3.2rem;
+    margin-top: 3rem;
+    height: 5rem;
+  }
+  html body header div .redes {
+    margin: 0rem 1rem 0 0rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  html body header div .redes li a svg {
+    height: 2rem;
+    width: 2rem;
+  }
+  html body header .instrumentos {
+    font-size: 1.5rem;
+  }
+  html body .nav-footer .logonav {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 50%;
+  }
+  html body .nav-footer .logonav img {
+    height: 7rem;
+    width: 7rem;
+  }
+  html body .nav-footer .datos {
+    justify-content: space-around;
+  }
+  html body .nav-footer .datos p {
+    font-size: 1.5rem;
+  }
+  html body .nav-footer .datos p svg {
+    height: 1.7rem;
+  }
+  html body .nav-footer ul li {
+    font-size: 1.7rem;
+  }
+  html body .nav-footer h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+  }
+  html body .main-index p {
+    font-size: 3rem;
+  }
+  html body .contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  html body .contacto section {
+    width: 100%;
+  }
+  html body .contacto section .formulario {
+    width: 100%;
+    flex-direction: column;
+  }
+  html body .contacto section .formulario form {
+    width: 100%;
+  }
+  html body .contacto section .formulario p {
+    width: 100%;
+  }
+  html body .tienda1, html body .tienda2, html body .tienda4, html body .tienda5 {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  html .carrusel-nosotros {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
