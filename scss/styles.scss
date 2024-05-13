@@ -40,7 +40,7 @@ html{
             .titulo{
                 font-size: 7.7rem;
                 margin-top: 5rem;
-                .titulo a{
+                a{
                     text-decoration: none;
                     color: antiquewhite;
                     border: solid;
@@ -90,6 +90,19 @@ html{
         background-color: #592A0F;
         display: flex;
         justify-content: space-between;
+        .logonav{
+            height: 16rem;
+            width: 16rem;
+            margin: 1rem 0 0 1rem;
+            border-radius: 50%;
+            img{    
+                height: 16rem;
+                width: 16rem;
+                border-radius: 50%;
+                border: solid;
+                border-color: antiquewhite;
+            }
+        }
         .datos{
             margin: 0;
             height: 25rem;

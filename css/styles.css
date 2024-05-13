@@ -42,7 +42,7 @@ html header div .titulo {
   font-size: 7.7rem;
   margin-top: 5rem;
 }
-html header div .titulo .titulo a {
+html header div .titulo a {
   text-decoration: none;
   color: antiquewhite;
   border: solid;
@@ -87,6 +87,19 @@ html .nav-footer {
   background-color: #592A0F;
   display: flex;
   justify-content: space-between;
+}
+html .nav-footer .logonav {
+  height: 16rem;
+  width: 16rem;
+  margin: 1rem 0 0 1rem;
+  border-radius: 50%;
+}
+html .nav-footer .logonav img {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  border: solid;
+  border-color: antiquewhite;
 }
 html .nav-footer .datos {
   margin: 0;
