@@ -47,4 +47,115 @@ html header div .titulo .titulo a {
   color: antiquewhite;
   border: solid;
   border-color: antiquewhite;
+}
+html header div .redes {
+  margin: 1rem 4rem 0 9rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html header div .redes svg {
+  color: antiquewhite;
+  height: 4rem;
+  width: 4rem;
+}
+html header div .redes svg:hover {
+  color: #D98C4A;
+}
+html header .instrumentos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+html header .instrumentos li {
+  margin: 0;
+}
+html header .instrumentos li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+html header .instrumentos li a:hover {
+  color: #D98C4A;
+}
+html .nav-footer {
+  background-color: #592A0F;
+  display: flex;
+  justify-content: space-between;
+}
+html .nav-footer .datos {
+  margin: 0;
+  height: 25rem;
+  color: antiquewhite;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html .nav-footer .datos a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+html .nav-footer .datos svg {
+  height: 2.3rem;
+  margin-right: 0.5rem;
+  color: antiquewhite;
+}
+html .nav-footer .datos p {
+  margin: 0;
+  font-size: 2.3rem;
+}
+html .nav-footer ul {
+  padding: 0;
+  margin: 0;
+  width: 22rem;
+  font-size: 2.3rem;
+  list-style: none;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html .nav-footer ul li {
+  margin: 0 auto;
+}
+html .nav-footer ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+html .nav-footer ul li a:hover {
+  color: #D98C4A;
+}
+html .nav-footer h2 {
+  margin: 0 10rem 0 0;
+  text-decoration: none;
+  font-size: 4rem;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html .nav-footer h2 a {
+  text-decoration: none;
+  color: antiquewhite;
+  border: solid;
+  padding: 0.4rem;
+}
+html .copyright {
+  background-color: black;
+  margin: 0;
+  font-size: 2.5rem;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+html .copyright svg {
+  margin-right: 0.5rem;
+  color: antiquewhite;
+  margin-left: 0;
 }/*# sourceMappingURL=styles.css.map */
