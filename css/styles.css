@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+  max-width: 180rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+html p {
+  text-align: justify;
+}
+html header {
+  background-color: #592A0F;
+}
+html header div {
+  height: 22rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+html header div .logonav {
+  height: 16rem;
+  width: 16rem;
+  margin: 1rem 0 0 1rem;
+  border-radius: 50%;
+}
+html header div .logonav img {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  border: solid;
+  border-color: antiquewhite;
+}
+html header div .titulo {
+  font-size: 7.7rem;
+  margin-top: 5rem;
+}
+html header div .titulo .titulo a {
+  text-decoration: none;
+  color: antiquewhite;
+  border: solid;
+  border-color: antiquewhite;
+}/*# sourceMappingURL=styles.css.map */
