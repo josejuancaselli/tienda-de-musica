@@ -284,6 +284,120 @@ header .instrumentos li a:hover {
   width: 100%;
 }
 
+.layout {
+  background-color: #F2C791;
+  display: grid;
+  grid-row-gap: 10rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.2fr 1fr 1fr 0.5fr 0.5fr;
+  grid-template-areas: "main main main main main main" "img1 img1 tele tele tele tele" "gibson gibson gibson gibson img2 img2" "img3 img3 img3 img3 sg sg" "taylor taylor img4 img4 img4 img4";
+}
+.layout main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.layout main h2 {
+  font-size: 4.5rem;
+}
+.layout main p {
+  padding: 3rem 5rem 0 5rem;
+  font-size: 3rem;
+}
+.layout .img1 {
+  height: 140rem;
+  width: auto;
+  grid-area: img1;
+}
+.layout .telecaster {
+  padding-right: 5rem;
+  grid-area: tele;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.layout .telecaster h2 {
+  font-size: 4rem;
+  margin: 7rem auto auto 7rem;
+}
+.layout .telecaster p {
+  font-size: 3rem;
+  margin-bottom: 60rem;
+}
+.layout .img2 {
+  height: 140rem;
+  width: auto;
+  grid-area: img2;
+}
+.layout .gibson {
+  grid-area: gibson;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.layout .gibson h2 {
+  font-size: 4rem;
+  margin: 7rem 7rem auto auto;
+}
+.layout .gibson p {
+  font-size: 3rem;
+  margin-bottom: 60rem;
+}
+.layout .box-img3 {
+  height: auto;
+  width: auto;
+  grid-area: img3;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.layout .box-img3 img {
+  margin: 0 7rem 0 5rem;
+}
+.layout .GibsonSg {
+  padding-right: 5rem;
+  grid-area: sg;
+  display: flex;
+  flex-direction: column;
+}
+.layout .GibsonSg h2 {
+  font-size: 4rem;
+  margin: 15rem;
+}
+.layout .GibsonSg p {
+  font-size: 3rem;
+}
+.layout .layout .box-img4 {
+  height: auto;
+  width: 100%;
+  grid-area: img4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.layout .layout .box-img4 img {
+  height: 42rem;
+}
+.layout .taylor {
+  padding-left: 5rem;
+  grid-area: taylor;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.layout .taylor h2 {
+  font-size: 4rem;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.layout .taylor p {
+  font-size: 3rem;
+  margin-bottom: 15rem;
+}
+
 * {
   padding: 0;
   margin: 0 auto;
@@ -300,119 +414,6 @@ html {
 }
 html p {
   text-align: justify;
-}
-html .layout {
-  background-color: #F2C791;
-  display: grid;
-  grid-row-gap: 10rem;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 0.2fr 1fr 1fr 0.5fr 0.5fr;
-  grid-template-areas: "main main main main main main" "img1 img1 tele tele tele tele" "gibson gibson gibson gibson img2 img2" "img3 img3 img3 img3 sg sg" "taylor taylor img4 img4 img4 img4";
-}
-html .layout main {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-html .layout main h2 {
-  font-size: 4.5rem;
-}
-html .layout main p {
-  padding: 3rem 5rem 0 5rem;
-  font-size: 3rem;
-}
-html .layout .img1 {
-  height: 140rem;
-  width: auto;
-  grid-area: img1;
-}
-html .layout .telecaster {
-  padding-right: 5rem;
-  grid-area: tele;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html .layout .telecaster h2 {
-  font-size: 4rem;
-  margin: 7rem auto auto 7rem;
-}
-html .layout .telecaster p {
-  font-size: 3rem;
-  margin-bottom: 60rem;
-}
-html .layout .img2 {
-  height: 140rem;
-  width: auto;
-  grid-area: img2;
-}
-html .layout .gibson {
-  grid-area: gibson;
-  padding-left: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html .layout .gibson h2 {
-  font-size: 4rem;
-  margin: 7rem 7rem auto auto;
-}
-html .layout .gibson p {
-  font-size: 3rem;
-  margin-bottom: 60rem;
-}
-html .layout .box-img3 {
-  height: auto;
-  width: auto;
-  grid-area: img3;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-html .layout .box-img3 img {
-  margin: 0 7rem 0 5rem;
-}
-html .layout .GibsonSg {
-  padding-right: 5rem;
-  grid-area: sg;
-  display: flex;
-  flex-direction: column;
-}
-html .layout .GibsonSg h2 {
-  font-size: 4rem;
-  margin: 15rem;
-}
-html .layout .GibsonSg p {
-  font-size: 3rem;
-}
-html .layout .layout .box-img4 {
-  height: auto;
-  width: 100%;
-  grid-area: img4;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-html .layout .layout .box-img4 img {
-  height: 42rem;
-}
-html .layout .taylor {
-  padding-left: 5rem;
-  grid-area: taylor;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-html .layout .taylor h2 {
-  font-size: 4rem;
-  margin-top: 15rem;
-  margin-bottom: 15rem;
-}
-html .layout .taylor p {
-  font-size: 3rem;
-  margin-bottom: 15rem;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   html body {

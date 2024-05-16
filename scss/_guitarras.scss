@@ -1,0 +1,118 @@
+.layout{
+    background-color: #F2C791;
+    display: grid;
+    grid-row-gap: 10rem;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.2fr 1fr 1fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "main main main main main main"
+    "img1 img1 tele tele tele tele"
+    "gibson gibson gibson gibson img2 img2"
+    "img3 img3 img3 img3 sg sg"
+    "taylor taylor img4 img4 img4 img4";
+    main{
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-size: 4.5rem;
+        }
+        p{
+            padding: 3rem 5rem 0 5rem;
+                font-size: 3rem ;
+        }
+    }
+    .img1{
+        height: 140rem;
+        width: auto;
+        grid-area: img1;
+    }
+    .telecaster{
+        padding-right: 5rem;
+        grid-area: tele;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            font-size: 4rem;
+            margin: 7rem auto auto 7rem;
+        }
+        p{
+            font-size: 3rem;
+            margin-bottom: 60rem;
+        }
+    }
+    .img2{
+        height: 140rem;
+        width: auto;
+        grid-area: img2;
+    }
+    .gibson{
+        grid-area: gibson;
+        padding-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            font-size: 4rem;
+            margin: 7rem 7rem auto auto;
+        }
+        p{
+            font-size: 3rem;
+            margin-bottom: 60rem;
+        }
+    }
+    .box-img3{
+        height: auto;
+        width: auto;
+        grid-area: img3;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img{
+            margin: 0 7rem 0 5rem;
+        }
+    }
+    .GibsonSg{
+        padding-right: 5rem;
+        grid-area: sg;
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 4rem;
+            margin: 15rem
+        }
+        p{
+            font-size: 3rem;
+        }
+    }
+    .layout .box-img4{
+        height: auto;
+        width: 100%;
+        grid-area: img4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img{
+            height: 42rem;
+        }
+    }
+    .taylor{
+        padding-left: 5rem;
+        grid-area: taylor;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h2{
+            font-size: 4rem;
+            margin-top: 15rem;
+            margin-bottom: 15rem;
+        }
+        p{
+            font-size: 3rem;
+            margin-bottom: 15rem;
+        }
+    }
+}
