@@ -1,4 +1,289 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap");
+header {
+  background-color: #592A0F;
+}
+header div {
+  height: 22rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header div .logonav {
+  height: 16rem;
+  width: 16rem;
+  margin: 1rem 0 0 1rem;
+  border-radius: 50%;
+}
+header div .logonav img {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  border: solid;
+  border-color: antiquewhite;
+}
+header div .titulo {
+  font-size: 7.7rem;
+  margin-top: 5rem;
+}
+header div .titulo a {
+  text-decoration: none;
+  color: antiquewhite;
+  border: solid;
+  border-color: antiquewhite;
+}
+header div .redes {
+  margin: 1rem 4rem 0 9rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header div .redes svg {
+  color: antiquewhite;
+  height: 4rem;
+  width: 4rem;
+}
+header div .redes svg:hover {
+  color: #D98C4A;
+}
+header .instrumentos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header .instrumentos li {
+  margin: 0;
+}
+header .instrumentos li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+header .instrumentos li a:hover {
+  color: #D98C4A;
+}
+
+.nav-footer {
+  background-color: #592A0F;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-footer .logonav {
+  height: 16rem;
+  width: 16rem;
+  margin: 1rem 0 0 1rem;
+  border-radius: 50%;
+}
+.nav-footer .logonav img {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  border: solid;
+  border-color: antiquewhite;
+}
+.nav-footer .datos {
+  margin: 0;
+  height: 25rem;
+  color: antiquewhite;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-footer .datos a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.nav-footer .datos svg {
+  height: 2.3rem;
+  margin-right: 0.5rem;
+  color: antiquewhite;
+}
+.nav-footer .datos p {
+  margin: 0;
+  font-size: 2.3rem;
+}
+.nav-footer ul {
+  padding: 0;
+  margin: 0;
+  width: 22rem;
+  font-size: 2.3rem;
+  list-style: none;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-footer ul li {
+  margin: 0 auto;
+}
+.nav-footer ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.nav-footer ul li a:hover {
+  color: #D98C4A;
+}
+.nav-footer h2 {
+  margin: 0 10rem 0 0;
+  text-decoration: none;
+  font-size: 4rem;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-footer h2 a {
+  text-decoration: none;
+  color: antiquewhite;
+  border: solid;
+  padding: 0.4rem;
+}
+
+.copyright {
+  background-color: black;
+  margin: 0;
+  font-size: 2.5rem;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+.copyright svg {
+  margin-right: 0.5rem;
+  color: antiquewhite;
+  margin-left: 0;
+}
+
+.main-index {
+  background-color: #F2C791;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+.main-index p {
+  font-size: 5rem;
+  display: flex;
+  padding-bottom: 4rem;
+}
+.main-index .oferta {
+  height: 10rem;
+  width: auto;
+}
+
+.main-faq {
+  background-color: #F2C791;
+}
+.main-faq h2 {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.main-faq section {
+  padding-left: 5rem;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+.main-faq section article {
+  margin: 4rem 0 4rem 0;
+}
+.main-faq section article h3 {
+  font-weight: 700;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+.main-faq section article p {
+  font-size: 3rem;
+}
+
+.main-nosotros {
+  background-color: #F2C791;
+}
+.main-nosotros h2 {
+  font-size: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  display: flex;
+  justify-content: center;
+}
+.main-nosotros .parallax {
+  background-image: url(../assets/tienda3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+.main-nosotros .nosotros-cuerpo {
+  padding-top: 7rem;
+  display: flex;
+}
+.main-nosotros .nosotros-cuerpo .tienda1, .main-nosotros .nosotros-cuerpo .tienda2, .main-nosotros .nosotros-cuerpo .tienda4, .main-nosotros .nosotros-cuerpo .tienda5 {
+  margin-bottom: 3rem;
+  height: 50rem;
+  width: auto;
+}
+.main-nosotros .nosotros-cuerpo article {
+  font-size: 2.5rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-nosotros .nosotros-cuerpo article p {
+  margin: 0;
+}
+
+.contacto {
+  background-color: #F2C791;
+}
+.contacto section {
+  display: flex;
+  flex-direction: column;
+}
+.contacto section h2 {
+  font-size: 10rem;
+  justify-content: center;
+  display: flex;
+}
+.contacto section .formulario {
+  display: flex;
+  margin: 0;
+  padding-bottom: 3rem;
+  justify-content: space-evenly;
+}
+.contacto section .formulario form {
+  width: 50rem;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.contacto section .formulario form label {
+  font-size: 3rem;
+  margin: 0;
+}
+.contacto section .formulario form input {
+  margin: 0;
+}
+.contacto section .formulario form textarea {
+  margin: 0;
+}
+.contacto section .formulario p {
+  font-size: 5rem;
+  margin: 0;
+  padding-right: 1rem;
+  width: 100rem;
+}
+.contacto section iframe {
+  width: 100%;
+}
+
 * {
   padding: 0;
   margin: 0 auto;
@@ -15,284 +300,6 @@ html {
 }
 html p {
   text-align: justify;
-}
-html header {
-  background-color: #592A0F;
-}
-html header div {
-  height: 22rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-html header div .logonav {
-  height: 16rem;
-  width: 16rem;
-  margin: 1rem 0 0 1rem;
-  border-radius: 50%;
-}
-html header div .logonav img {
-  height: 16rem;
-  width: 16rem;
-  border-radius: 50%;
-  border: solid;
-  border-color: antiquewhite;
-}
-html header div .titulo {
-  font-size: 7.7rem;
-  margin-top: 5rem;
-}
-html header div .titulo a {
-  text-decoration: none;
-  color: antiquewhite;
-  border: solid;
-  border-color: antiquewhite;
-}
-html header div .redes {
-  margin: 1rem 4rem 0 9rem;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html header div .redes svg {
-  color: antiquewhite;
-  height: 4rem;
-  width: 4rem;
-}
-html header div .redes svg:hover {
-  color: #D98C4A;
-}
-html header .instrumentos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 3rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-html header .instrumentos li {
-  margin: 0;
-}
-html header .instrumentos li a {
-  text-decoration: none;
-  color: antiquewhite;
-}
-html header .instrumentos li a:hover {
-  color: #D98C4A;
-}
-html .nav-footer {
-  background-color: #592A0F;
-  display: flex;
-  justify-content: space-between;
-}
-html .nav-footer .logonav {
-  height: 16rem;
-  width: 16rem;
-  margin: 1rem 0 0 1rem;
-  border-radius: 50%;
-}
-html .nav-footer .logonav img {
-  height: 16rem;
-  width: 16rem;
-  border-radius: 50%;
-  border: solid;
-  border-color: antiquewhite;
-}
-html .nav-footer .datos {
-  margin: 0;
-  height: 25rem;
-  color: antiquewhite;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html .nav-footer .datos a {
-  text-decoration: none;
-  color: antiquewhite;
-}
-html .nav-footer .datos svg {
-  height: 2.3rem;
-  margin-right: 0.5rem;
-  color: antiquewhite;
-}
-html .nav-footer .datos p {
-  margin: 0;
-  font-size: 2.3rem;
-}
-html .nav-footer ul {
-  padding: 0;
-  margin: 0;
-  width: 22rem;
-  font-size: 2.3rem;
-  list-style: none;
-  color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-html .nav-footer ul li {
-  margin: 0 auto;
-}
-html .nav-footer ul li a {
-  text-decoration: none;
-  color: antiquewhite;
-}
-html .nav-footer ul li a:hover {
-  color: #D98C4A;
-}
-html .nav-footer h2 {
-  margin: 0 10rem 0 0;
-  text-decoration: none;
-  font-size: 4rem;
-  color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-html .nav-footer h2 a {
-  text-decoration: none;
-  color: antiquewhite;
-  border: solid;
-  padding: 0.4rem;
-}
-html .copyright {
-  background-color: black;
-  margin: 0;
-  font-size: 2.5rem;
-  color: antiquewhite;
-  display: flex;
-  justify-content: center;
-}
-html .copyright svg {
-  margin-right: 0.5rem;
-  color: antiquewhite;
-  margin-left: 0;
-}
-html .main-index {
-  background-color: #F2C791;
-  display: flex;
-  flex-direction: column;
-  padding: 5rem;
-}
-html .main-index p {
-  font-size: 5rem;
-  display: flex;
-  padding-bottom: 4rem;
-}
-html .main-index .oferta {
-  height: 10rem;
-  width: auto;
-}
-html .main-faq {
-  background-color: #F2C791;
-}
-html .main-faq h2 {
-  font-size: 5rem;
-  display: flex;
-  justify-content: center;
-  padding: 5rem;
-}
-html .main-faq section {
-  padding-left: 5rem;
-  margin-right: 0;
-  display: flex;
-  flex-direction: column;
-}
-html .main-faq section article {
-  margin: 4rem 0 4rem 0;
-}
-html .main-faq section article h3 {
-  font-weight: 700;
-  font-size: 4rem;
-  padding-bottom: 1rem;
-}
-html .main-faq section article p {
-  font-size: 3rem;
-}
-html .main-nosotros {
-  background-color: #F2C791;
-}
-html .main-nosotros h2 {
-  font-size: 7rem;
-  padding-top: 3rem;
-  padding-bottom: 7rem;
-  display: flex;
-  justify-content: center;
-}
-html .main-nosotros .parallax {
-  background-image: url(../assets/tienda3.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40vh;
-}
-html .main-nosotros .nosotros-cuerpo {
-  padding-top: 7rem;
-  display: flex;
-}
-html .main-nosotros .nosotros-cuerpo .tienda1, html .main-nosotros .nosotros-cuerpo .tienda2, html .main-nosotros .nosotros-cuerpo .tienda4, html .main-nosotros .nosotros-cuerpo .tienda5 {
-  margin-bottom: 3rem;
-  height: 50rem;
-  width: auto;
-}
-html .main-nosotros .nosotros-cuerpo article {
-  font-size: 2.5rem;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html .main-nosotros .nosotros-cuerpo article p {
-  margin: 0;
-}
-html .contacto {
-  background-color: #F2C791;
-}
-html .contacto section {
-  display: flex;
-  flex-direction: column;
-}
-html .contacto section h2 {
-  font-size: 10rem;
-  justify-content: center;
-  display: flex;
-}
-html .contacto section .formulario {
-  display: flex;
-  margin: 0;
-  padding-bottom: 3rem;
-  justify-content: space-evenly;
-}
-html .contacto section .formulario form {
-  width: 50rem;
-  padding: 0 1rem 0 1rem;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-html .contacto section .formulario form label {
-  font-size: 3rem;
-  margin: 0;
-}
-html .contacto section .formulario form input {
-  margin: 0;
-}
-html .contacto section .formulario form textarea {
-  margin: 0;
-}
-html .contacto section .formulario p {
-  font-size: 5rem;
-  margin: 0;
-  padding-right: 1rem;
-  width: 100rem;
-}
-html .contacto section iframe {
-  width: 100%;
 }
 html .layout {
   background-color: #F2C791;

@@ -1,0 +1,38 @@
+.main-nosotros{
+    background-color: #F2C791;
+    h2{
+        font-size: 7rem;
+        padding-top: 3rem;
+        padding-bottom: 7rem;
+        display: flex;
+        justify-content: center;
+    }
+    .parallax{
+        background-image: url(../assets/tienda3.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    .nosotros-cuerpo{
+        padding-top: 7rem;
+        display: flex;
+        .tienda1, .tienda2, .tienda4, .tienda5{
+            margin-bottom: 3rem;
+            height: 50rem;
+            width: auto;
+        }
+        article{
+            font-size: 2.5rem;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            p{
+                margin: 0;
+            }
+        }
+        
+    }
+}

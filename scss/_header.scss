@@ -1,0 +1,70 @@
+header{
+    background-color: #592A0F;
+    div{
+        height: 22rem;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .logonav{
+            height: 16rem;
+            width: 16rem;
+            margin: 1rem 0 0 1rem;
+            border-radius: 50%;
+            img{    
+                height: 16rem;
+                width: 16rem;
+                border-radius: 50%;
+                border: solid;
+                border-color: antiquewhite;
+            }
+        }
+        .titulo{
+            font-size: 7.7rem;
+            margin-top: 5rem;
+            a{
+                text-decoration: none;
+                color: antiquewhite;
+                border: solid;
+                border-color: antiquewhite;
+            }
+        }
+        .redes{
+            margin: 1rem 4rem 0 9rem;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            svg{
+                color: antiquewhite;
+                height: 4rem;
+                width: 4rem;
+                &:hover{
+                    color:#D98C4A ;
+                }
+            }
+        }
+    }
+    .instrumentos{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 3rem;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        li{
+            margin: 0;
+            a{
+                text-decoration: none;
+                color: antiquewhite;
+                &:hover{
+                    color:#D98C4A ;
+                }
+            }
+        }
+    }
+    
+}

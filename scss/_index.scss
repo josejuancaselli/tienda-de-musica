@@ -1,0 +1,16 @@
+.main-index{
+    background-color: #F2C791;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    p{
+        font-size: 5rem;
+    
+        display: flex;
+        padding-bottom: 4rem;
+    }
+    .oferta{
+        height: 10rem;
+        width: auto;
+    }
+}
