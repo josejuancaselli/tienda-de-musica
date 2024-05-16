@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
 
-@import "header";
-@import "footer";
-@import "index";
-@import "faq";
-@import "nosotros";
-@import "contacto";
-@import "guitarras";
-
 *{
     padding: 0;
     margin: 0 auto;
@@ -293,3 +285,11 @@ html{
         }
     }
 }
+
+@import "header";
+@import "footer";
+@import "index";
+@import "faq";
+@import "nosotros";
+@import "contacto";
+@import "guitarras";
