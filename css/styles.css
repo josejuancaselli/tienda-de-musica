@@ -1,267 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap");
-* {
-  padding: 0;
-  margin: 0 auto;
-  width: auto;
-  max-width: 180rem;
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-html {
-  font-size: 62.5%;
-}
-html p {
-  text-align: justify;
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  html body {
-    width: 100%;
-    max-width: 767px;
-  }
-  html body header {
-    width: 100%;
-  }
-  html body header div {
-    flex-wrap: wrap;
-    height: 15rem;
-    width: 100%;
-  }
-  html body header div .logonav {
-    height: 7rem;
-    width: 7rem;
-    margin: 1rem 0 0 1rem;
-    border-radius: 50%;
-  }
-  html body header div .logonav img {
-    height: 7rem;
-    width: 7rem;
-  }
-  html body header div .titulo {
-    font-size: 3.2rem;
-    margin-top: 3rem;
-    height: 5rem;
-  }
-  html body header div .redes {
-    margin: 0rem 1rem 0 0rem;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  html body header div .redes svg {
-    height: 2rem;
-    width: 2rem;
-  }
-  html body header .instrumentos {
-    font-size: 1.5rem;
-  }
-  html body .nav-footer {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  html body .nav-footer .logonav {
-    display: none;
-  }
-  html body .nav-footer .datos {
-    justify-content: space-around;
-    height: 12rem;
-    padding-left: 1rem;
-    padding-top: 0.3rem;
-  }
-  html body .nav-footer .datos p {
-    font-size: 1.3rem;
-  }
-  html body .nav-footer .datos svg {
-    height: 2rem;
-    width: auto;
-  }
-  html body .nav-footer ul {
-    font-size: 1.3rem;
-    width: -moz-fit-content;
-    width: fit-content;
-    justify-content: flex-start;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-  }
-  html body .nav-footer ul li {
-    margin: 0;
-  }
-  html body .nav-footer h2 {
-    font-size: 3rem;
-    margin: 0.5rem auto;
-  }
-  html body .copyright {
-    font-size: 1.5rem;
-  }
-  html body .copyright svg {
-    height: 1.5rem;
-    margin: 0.3rem 0.3rem 0 0.3rem;
-  }
-  html body .main-index p {
-    font-size: 2rem;
-  }
-  html body .main-faq section article h3 {
-    padding-right: 2rem;
-  }
-  html body .main-faq section article p {
-    padding-right: 2rem;
-    font-size: 2.5rem;
-  }
-  html body .contacto {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  html body .contacto section {
-    width: 100%;
-  }
-  html body .contacto section h2 {
-    font-size: 4rem;
-  }
-  html body .contacto section p {
-    font-size: 2rem;
-    padding: 1rem 1rem 0 1rem;
-  }
-  html body .contacto section .formulario {
-    width: 100%;
-    flex-direction: column;
-  }
-  html body .contacto section .formulario form {
-    width: 100%;
-  }
-  html body .contacto section .formulario p {
-    width: 100%;
-  }
-  html body .main-nosotros {
-    width: 100%;
-  }
-  html body .main-nosotros .parallax {
-    width: 100%;
-  }
-  html body .main-nosotros h2 {
-    font-size: 5rem;
-  }
-  html body .main-nosotros .nosotros-cuerpo {
-    width: 100%;
-  }
-  html body .main-nosotros .nosotros-cuerpo .tienda1, html body .main-nosotros .nosotros-cuerpo .tienda2, html body .main-nosotros .nosotros-cuerpo .tienda4, html body .main-nosotros .nosotros-cuerpo .tienda5 {
-    display: none;
-  }
-  html body .main-nosotros .nosotros-cuerpo article p {
-    font-size: 2.5rem;
-    width: 100%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-  html body {
-    width: 100%;
-    max-width: 1200px;
-  }
-  html body header {
-    width: 100%;
-  }
-  html body header div {
-    flex-wrap: wrap;
-    height: 15rem;
-    width: 100%;
-  }
-  html body header div .logonav {
-    height: 7rem;
-    width: 7rem;
-    margin: 1rem 0 0 1rem;
-    border-radius: 50%;
-  }
-  html body header div .logonav img {
-    height: 7rem;
-    width: 7rem;
-  }
-  html body header div .titulo {
-    font-size: 3.2rem;
-    margin-top: 3rem;
-    height: 5rem;
-  }
-  html body header div .redes {
-    margin: 0rem 1rem 0 0rem;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  html body header div .redes li a svg {
-    height: 2rem;
-    width: 2rem;
-  }
-  html body header .instrumentos {
-    font-size: 1.5rem;
-  }
-  html body .nav-footer .logonav {
-    height: 7rem;
-    width: 7rem;
-    margin: 1rem 0 0 1rem;
-    border-radius: 50%;
-  }
-  html body .nav-footer .logonav img {
-    height: 7rem;
-    width: 7rem;
-  }
-  html body .nav-footer .datos {
-    justify-content: space-around;
-  }
-  html body .nav-footer .datos p {
-    font-size: 1.5rem;
-  }
-  html body .nav-footer .datos p svg {
-    height: 1.7rem;
-  }
-  html body .nav-footer ul li {
-    font-size: 1.7rem;
-  }
-  html body .nav-footer h2 {
-    margin: 0;
-    font-size: 2.5rem;
-    padding-right: 0.5rem;
-  }
-  html body .main-index p {
-    font-size: 3rem;
-  }
-  html body .contacto {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  html body .contacto section {
-    width: 100%;
-  }
-  html body .contacto section .formulario {
-    width: 100%;
-    flex-direction: column;
-  }
-  html body .contacto section .formulario form {
-    width: 100%;
-  }
-  html body .contacto section .formulario p {
-    width: 100%;
-  }
-  html body .tienda1, html body .tienda2, html body .tienda4, html body .tienda5 {
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
-  html .carrusel-nosotros {
-    display: none;
-  }
-}
-
 header {
   background-color: #592A0F;
+  width: 100%;
 }
 header div {
   height: 22rem;
@@ -328,25 +68,28 @@ header .instrumentos li a:hover {
   color: #D98C4A;
 }
 
-.nav-footer {
+footer {
+  width: 100%;
+}
+footer .nav-footer {
   background-color: #592A0F;
   display: flex;
   justify-content: space-between;
 }
-.nav-footer .logonav {
+footer .nav-footer .logonav {
   height: 16rem;
   width: 16rem;
   margin: 1rem 0 0 1rem;
   border-radius: 50%;
 }
-.nav-footer .logonav img {
+footer .nav-footer .logonav img {
   height: 16rem;
   width: 16rem;
   border-radius: 50%;
   border: solid;
   border-color: antiquewhite;
 }
-.nav-footer .datos {
+footer .nav-footer .datos {
   margin: 0;
   height: 25rem;
   color: antiquewhite;
@@ -355,20 +98,20 @@ header .instrumentos li a:hover {
   flex-direction: column;
   justify-content: space-between;
 }
-.nav-footer .datos a {
+footer .nav-footer .datos a {
   text-decoration: none;
   color: antiquewhite;
 }
-.nav-footer .datos svg {
+footer .nav-footer .datos svg {
   height: 2.3rem;
   margin-right: 0.5rem;
   color: antiquewhite;
 }
-.nav-footer .datos p {
+footer .nav-footer .datos p {
   margin: 0;
   font-size: 2.3rem;
 }
-.nav-footer ul {
+footer .nav-footer ul {
   padding: 0;
   margin: 0;
   width: 22rem;
@@ -379,17 +122,17 @@ header .instrumentos li a:hover {
   flex-direction: column;
   justify-content: center;
 }
-.nav-footer ul li {
+footer .nav-footer ul li {
   margin: 0 auto;
 }
-.nav-footer ul li a {
+footer .nav-footer ul li a {
   text-decoration: none;
   color: antiquewhite;
 }
-.nav-footer ul li a:hover {
+footer .nav-footer ul li a:hover {
   color: #D98C4A;
 }
-.nav-footer h2 {
+footer .nav-footer h2 {
   margin: 0 10rem 0 0;
   text-decoration: none;
   font-size: 4rem;
@@ -398,14 +141,13 @@ header .instrumentos li a:hover {
   flex-direction: column;
   justify-content: center;
 }
-.nav-footer h2 a {
+footer .nav-footer h2 a {
   text-decoration: none;
   color: antiquewhite;
   border: solid;
   padding: 0.4rem;
 }
-
-.copyright {
+footer .copyright {
   background-color: black;
   margin: 0;
   font-size: 2.5rem;
@@ -413,7 +155,7 @@ header .instrumentos li a:hover {
   display: flex;
   justify-content: center;
 }
-.copyright svg {
+footer .copyright svg {
   margin-right: 0.5rem;
   color: antiquewhite;
   margin-left: 0;
@@ -437,6 +179,7 @@ header .instrumentos li a:hover {
 
 .main-faq {
   background-color: #F2C791;
+  margin: 0 auto;
 }
 .main-faq h2 {
   font-size: 5rem;
@@ -445,7 +188,6 @@ header .instrumentos li a:hover {
   padding: 5rem;
 }
 .main-faq section {
-  padding-left: 5rem;
   margin-right: 0;
   display: flex;
   flex-direction: column;
@@ -536,10 +278,10 @@ header .instrumentos li a:hover {
   margin: 0;
 }
 .contacto section .formulario p {
-  font-size: 5rem;
-  margin: 0;
-  padding-right: 1rem;
-  width: 100rem;
+  font-size: 3rem;
+  margin: auto 0;
+  padding: 0 2%;
+  width: 100%;
 }
 .contacto section iframe {
   width: 100%;
@@ -657,4 +399,295 @@ header .instrumentos li a:hover {
 .layout .taylor p {
   font-size: 3rem;
   margin-bottom: 15rem;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+  max-width: 198rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+html body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F2C791;
+}
+html body p {
+  text-align: justify;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  html body {
+    width: 100%;
+    max-width: 767px;
+  }
+  html body header {
+    width: 100%;
+  }
+  html body header div {
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 100%;
+  }
+  html body header div .logonav {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 50%;
+  }
+  html body header div .logonav img {
+    height: 7rem;
+    width: 7rem;
+  }
+  html body header div .titulo {
+    font-size: 3.2rem;
+    margin-top: 3rem;
+    height: 5rem;
+  }
+  html body header div .redes {
+    margin: 0rem 1rem 0 0rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  html body header div .redes svg {
+    height: 2rem;
+    width: 2rem;
+  }
+  html body header .instrumentos {
+    font-size: 1.5rem;
+  }
+  html body footer {
+    margin: 0;
+    margin-top: auto;
+  }
+  html body footer .nav-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  html body footer .nav-footer .logonav {
+    display: none;
+  }
+  html body footer .nav-footer .datos {
+    justify-content: space-around;
+    height: 12rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+  }
+  html body footer .nav-footer .datos p {
+    font-size: 1.3rem;
+  }
+  html body footer .nav-footer .datos svg {
+    height: 2rem;
+    width: auto;
+  }
+  html body footer .nav-footer ul {
+    font-size: 1.3rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    justify-content: flex-start;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  html body footer .nav-footer ul li {
+    margin: 0;
+  }
+  html body footer .nav-footer h2 {
+    font-size: 3rem;
+    margin: 0.5rem auto;
+  }
+  html body footer .copyright {
+    font-size: 1.5rem;
+  }
+  html body footer .copyright svg {
+    height: 1.5rem;
+    margin: 0.3rem 0.3rem 0 0.3rem;
+  }
+  html body .main-index p {
+    font-size: 2rem;
+  }
+  html body .main-faq h2 {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  html body .main-faq section {
+    padding-left: 1rem;
+  }
+  html body .main-faq section article h3 {
+    font-size: 3rem;
+    padding-right: 2rem;
+  }
+  html body .main-faq section article p {
+    padding-right: 2rem;
+    font-size: 2rem;
+  }
+  html body .contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  html body .contacto section {
+    width: 100%;
+  }
+  html body .contacto section h2 {
+    font-size: 4rem;
+  }
+  html body .contacto section p {
+    font-size: 2rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+  html body .contacto section .formulario {
+    width: 100%;
+    flex-direction: column;
+  }
+  html body .contacto section .formulario form {
+    width: 100%;
+  }
+  html body .contacto section .formulario p {
+    width: 100%;
+    font-size: 2rem;
+  }
+  html body .main-nosotros {
+    width: 100%;
+  }
+  html body .main-nosotros .parallax {
+    width: 100%;
+  }
+  html body .main-nosotros h2 {
+    font-size: 5rem;
+  }
+  html body .main-nosotros .nosotros-cuerpo {
+    width: 100%;
+  }
+  html body .main-nosotros .nosotros-cuerpo .tienda1, html body .main-nosotros .nosotros-cuerpo .tienda2, html body .main-nosotros .nosotros-cuerpo .tienda4, html body .main-nosotros .nosotros-cuerpo .tienda5 {
+    display: none;
+  }
+  html body .main-nosotros .nosotros-cuerpo article p {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  html body {
+    width: 100%;
+    max-width: 1200px;
+  }
+  html body header {
+    margin: 0;
+    width: 100%;
+  }
+  html body header div {
+    flex-wrap: wrap;
+    height: 15rem;
+    width: 100%;
+  }
+  html body header div .logonav {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 50%;
+  }
+  html body header div .logonav img {
+    height: 7rem;
+    width: 7rem;
+  }
+  html body header div .titulo {
+    font-size: 3.2rem;
+    margin-top: 3rem;
+    height: 5rem;
+  }
+  html body header div .redes {
+    margin: 0rem 1rem 0 0rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  html body header div .redes li a svg {
+    height: 2rem;
+    width: 2rem;
+  }
+  html body header .instrumentos {
+    font-size: 1.5rem;
+  }
+  html body footer {
+    margin: 0;
+    margin-top: auto;
+    width: 100%;
+  }
+  html body footer .nav-footer .logonav {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 50%;
+  }
+  html body footer .nav-footer .logonav img {
+    height: 7rem;
+    width: 7rem;
+  }
+  html body footer .nav-footer .datos {
+    justify-content: space-around;
+  }
+  html body footer .nav-footer .datos p {
+    font-size: 1.5rem;
+  }
+  html body footer .nav-footer .datos p svg {
+    height: 1.7rem;
+  }
+  html body footer .nav-footer ul li {
+    font-size: 1.7rem;
+  }
+  html body footer .nav-footer h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+  }
+  html body .main-index p {
+    font-size: 3rem;
+  }
+  html body .contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  html body .contacto section {
+    width: 100%;
+  }
+  html body .contacto section .formulario {
+    width: 100%;
+    flex-direction: column;
+  }
+  html body .contacto section .formulario form {
+    width: 100%;
+  }
+  html body .contacto section .formulario p {
+    width: 100%;
+  }
+  html body .tienda1, html body .tienda2, html body .tienda4, html body .tienda5 {
+    display: none;
+  }
+  html body .main-faq section {
+    padding: 0 2%;
+  }
+}
+@media (min-width: 1200px) {
+  html .carrusel-nosotros {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

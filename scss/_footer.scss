@@ -1,95 +1,98 @@
-.nav-footer{
-    background-color: #592A0F;
-    display: flex;
-    justify-content: space-between;
-    .logonav{
-        height: 16rem;
-        width: 16rem;
-        margin: 1rem 0 0 1rem;
-        border-radius: 50%;
-        img{    
+footer{
+    width: 100%;
+    .nav-footer{
+        background-color: #592A0F;
+        display: flex;
+        justify-content: space-between;
+        .logonav{
             height: 16rem;
             width: 16rem;
+            margin: 1rem 0 0 1rem;
             border-radius: 50%;
-            border: solid;
-            border-color: antiquewhite;
+            img{    
+                height: 16rem;
+                width: 16rem;
+                border-radius: 50%;
+                border: solid;
+                border-color: antiquewhite;
+            }
         }
-    }
-    .datos{
-        margin: 0;
-        height: 25rem;
-        color: antiquewhite;
-        list-style: none;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        a{
-            text-decoration: none;
-            color: antiquewhite;
-        }
-        svg{
-            height: 2.3rem;
-            margin-right: 0.5rem;
-            color: antiquewhite;
-        }
-        p{
+        .datos{
             margin: 0;
-            font-size: 2.3rem;
-        }
-    }
-    ul{
-        padding: 0;
-        margin: 0;
-        width: 22rem;
-        font-size: 2.3rem;
-        list-style: none;
-        color: antiquewhite;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        li{
-            margin: 0 auto;
+            height: 25rem;
+            color: antiquewhite;
+            list-style: none;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             a{
                 text-decoration: none;
                 color: antiquewhite;
-                &:hover{
-                    color:#D98C4A ;
+            }
+            svg{
+                height: 2.3rem;
+                margin-right: 0.5rem;
+                color: antiquewhite;
+            }
+            p{
+                margin: 0;
+                font-size: 2.3rem;
+            }
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+            width: 22rem;
+            font-size: 2.3rem;
+            list-style: none;
+            color: antiquewhite;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            li{
+                margin: 0 auto;
+                a{
+                    text-decoration: none;
+                    color: antiquewhite;
+                    &:hover{
+                        color:#D98C4A ;
+                    }
                 }
             }
         }
+        h2{
+            margin: 0 10rem 0 0;
+            text-decoration: none;
+            font-size: 4rem;
+            color: antiquewhite;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color: antiquewhite;
+                border: solid;
+                padding: 0.4rem;
+            }
+        }
+        
     }
-    h2{
-        margin: 0 10rem 0 0;
-        text-decoration: none;
-        font-size: 4rem;
+    .copyright{
+        background-color: black;
+        margin: 0;
+        font-size: 2.5rem;
         color: antiquewhite;
     
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        a{
-            text-decoration: none;
+        svg{
+            margin-right: 0.5rem;
             color: antiquewhite;
-            border: solid;
-            padding: 0.4rem;
+            margin-left: 0;
+        
         }
-    }
-    
-}
-.copyright{
-    background-color: black;
-    margin: 0;
-    font-size: 2.5rem;
-    color: antiquewhite;
-
-    display: flex;
-    justify-content: center;
-    svg{
-        margin-right: 0.5rem;
-        color: antiquewhite;
-        margin-left: 0;
-    
     }
 }
