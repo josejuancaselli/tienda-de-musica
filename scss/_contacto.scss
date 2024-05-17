@@ -3,6 +3,10 @@
     section{
         display: flex;
         flex-direction: column;
+        
+        iframe{
+            width: 98%;
+        }
         h2{
             font-size: 10rem;
             justify-content: center;
@@ -37,9 +41,7 @@
                 width: 100%;
             }
         }
-        iframe{
-            width: 100%;
-        }
+        
     }
     
 }

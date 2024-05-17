@@ -249,6 +249,9 @@ footer .copyright svg {
   display: flex;
   flex-direction: column;
 }
+.contacto section iframe {
+  width: 98%;
+}
 .contacto section h2 {
   font-size: 10rem;
   justify-content: center;
@@ -281,9 +284,6 @@ footer .copyright svg {
   font-size: 3rem;
   margin: auto 0;
   padding: 0 2%;
-  width: 100%;
-}
-.contacto section iframe {
   width: 100%;
 }
 
@@ -556,6 +556,9 @@ html body p {
   }
   html body .contacto section .formulario form {
     width: 100%;
+  }
+  html body .contacto section .formulario form label {
+    font-size: 2rem;
   }
   html body .contacto section .formulario p {
     width: 100%;
