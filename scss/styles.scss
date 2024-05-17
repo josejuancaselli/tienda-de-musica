@@ -12,7 +12,7 @@
     padding: 0;
     margin: 0 auto;
     width: auto;
-    max-width: 198rem;
+    max-width: 768rem;
 
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -43,14 +43,15 @@ html{
                     height: 15rem;
                     width: 100%;
                     .logonav{
-                        height: 7rem;
-                        width: 7rem;
-                        margin: 1rem 0 0 1rem;
-                        border-radius: 50%;
-                        img{
-                            height: 7rem;
-                            width: 7rem;
-                        }
+                        // height: 7rem;
+                        // width: 7rem;
+                        // margin: 1rem 0 0 1rem;
+                        // border-radius: 50%;
+                        // img{
+                        //     height: 7rem;
+                        //     width: 7rem;
+                        // }
+                        display: none;
                     }
                     .titulo{
                         font-size: 3.2rem;
@@ -72,7 +73,8 @@ html{
                     }
                 }
                 .instrumentos{
-                    font-size: 1.5rem;
+                    // font-size: 1.5rem;
+                    display: none;
                 }
             }
             footer{
@@ -198,6 +200,10 @@ html{
                         }
                     }
                 }
+                #carouselExample{
+                    width: 60%;
+                    padding: 1%;
+                }
             }
         }
     }
@@ -206,6 +212,9 @@ html{
         body{
             width: 100%;
             max-width: 1200px;
+            .navbar{
+                display: none;
+            }
             header{
                 margin: 0;
                 width: 100%;
@@ -310,6 +319,33 @@ html{
                     }
                 }
             }
+            .main-nosotros{
+                width: 100%;
+                .parallax{
+                    width: 100%;
+                }
+                
+                h2{
+                    font-size: 5rem;
+                }
+                .nosotros-cuerpo{
+                    width: 100%;
+                    .tienda1, .tienda2, .tienda4, .tienda5{
+                        display: none;
+                    }
+                    article{
+                        p{
+                            font-size: 2rem;
+                            width: 100% ;
+                            
+                        }
+                    }
+                }
+                #carouselExample{
+                    width: 60%;
+                    padding: 1%;
+                }
+            }
             .tienda1, .tienda2, .tienda4, .tienda5{
                 display: none;
             }
@@ -321,8 +357,12 @@ html{
         }
     }
     @media (min-width: 1200px){
+        // .navbar{
+        //     display: none;
+        // }
         .carrusel-nosotros{
             display: none;
+        
         }
     }
 }

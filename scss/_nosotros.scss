@@ -1,5 +1,5 @@
 .main-nosotros{
-    background-color: #F2C791;
+    background-color: rgb(242, 199, 145);
     h2{
         font-size: 7rem;
         padding-top: 3rem;
@@ -18,10 +18,13 @@
     .nosotros-cuerpo{
         padding-top: 7rem;
         display: flex;
-        .tienda1, .tienda2, .tienda4, .tienda5{
-            margin-bottom: 3rem;
-            height: 50rem;
-            width: auto;
+        div{
+            padding: 1rem;
+            .tienda1, .tienda2, .tienda4, .tienda5{
+                margin-bottom: 3rem;
+                height: 50rem;
+                width: auto;
+            }
         }
         article{
             font-size: 2.5rem;

@@ -2,37 +2,35 @@
 header {
   background-color: #592A0F;
   width: 100%;
-}
-header div {
   height: 22rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-header div .logonav {
+header .logonav {
   height: 16rem;
   width: 16rem;
   margin: 1rem 0 0 1rem;
   border-radius: 50%;
 }
-header div .logonav img {
+header .logonav img {
   height: 16rem;
   width: 16rem;
   border-radius: 50%;
   border: solid;
   border-color: antiquewhite;
 }
-header div .titulo {
+header .titulo {
   font-size: 7.7rem;
   margin-top: 5rem;
 }
-header div .titulo a {
+header .titulo a {
   text-decoration: none;
   color: antiquewhite;
   border: solid;
   border-color: antiquewhite;
 }
-header div .redes {
+header .redes {
   margin: 1rem 4rem 0 9rem;
   padding: 0;
   list-style: none;
@@ -40,12 +38,12 @@ header div .redes {
   flex-direction: column;
   justify-content: space-between;
 }
-header div .redes svg {
+header .redes svg {
   color: antiquewhite;
   height: 4rem;
   width: 4rem;
 }
-header div .redes svg:hover {
+header .redes svg:hover {
   color: #D98C4A;
 }
 header .instrumentos {
@@ -205,7 +203,7 @@ footer .copyright svg {
 }
 
 .main-nosotros {
-  background-color: #F2C791;
+  background-color: rgb(242, 199, 145);
 }
 .main-nosotros h2 {
   font-size: 7rem;
@@ -226,7 +224,10 @@ footer .copyright svg {
   padding-top: 7rem;
   display: flex;
 }
-.main-nosotros .nosotros-cuerpo .tienda1, .main-nosotros .nosotros-cuerpo .tienda2, .main-nosotros .nosotros-cuerpo .tienda4, .main-nosotros .nosotros-cuerpo .tienda5 {
+.main-nosotros .nosotros-cuerpo div {
+  padding: 1rem;
+}
+.main-nosotros .nosotros-cuerpo div .tienda1, .main-nosotros .nosotros-cuerpo div .tienda2, .main-nosotros .nosotros-cuerpo div .tienda4, .main-nosotros .nosotros-cuerpo div .tienda5 {
   margin-bottom: 3rem;
   height: 50rem;
   width: auto;
@@ -405,7 +406,7 @@ footer .copyright svg {
   padding: 0;
   margin: 0 auto;
   width: auto;
-  max-width: 198rem;
+  max-width: 768rem;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -438,14 +439,7 @@ html body p {
     width: 100%;
   }
   html body header div .logonav {
-    height: 7rem;
-    width: 7rem;
-    margin: 1rem 0 0 1rem;
-    border-radius: 50%;
-  }
-  html body header div .logonav img {
-    height: 7rem;
-    width: 7rem;
+    display: none;
   }
   html body header div .titulo {
     font-size: 3.2rem;
@@ -466,7 +460,7 @@ html body p {
     width: 2rem;
   }
   html body header .instrumentos {
-    font-size: 1.5rem;
+    display: none;
   }
   html body footer {
     margin: 0;
@@ -583,11 +577,18 @@ html body p {
     font-size: 2rem;
     width: 100%;
   }
+  html body .main-nosotros #carouselExample {
+    width: 60%;
+    padding: 1%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   html body {
     width: 100%;
     max-width: 1200px;
+  }
+  html body .navbar {
+    display: none;
   }
   html body header {
     margin: 0;
@@ -681,6 +682,29 @@ html body p {
   }
   html body .contacto section .formulario p {
     width: 100%;
+  }
+  html body .main-nosotros {
+    width: 100%;
+  }
+  html body .main-nosotros .parallax {
+    width: 100%;
+  }
+  html body .main-nosotros h2 {
+    font-size: 5rem;
+  }
+  html body .main-nosotros .nosotros-cuerpo {
+    width: 100%;
+  }
+  html body .main-nosotros .nosotros-cuerpo .tienda1, html body .main-nosotros .nosotros-cuerpo .tienda2, html body .main-nosotros .nosotros-cuerpo .tienda4, html body .main-nosotros .nosotros-cuerpo .tienda5 {
+    display: none;
+  }
+  html body .main-nosotros .nosotros-cuerpo article p {
+    font-size: 2rem;
+    width: 100%;
+  }
+  html body .main-nosotros #carouselExample {
+    width: 60%;
+    padding: 1%;
   }
   html body .tienda1, html body .tienda2, html body .tienda4, html body .tienda5 {
     display: none;
