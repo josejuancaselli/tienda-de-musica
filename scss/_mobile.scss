@@ -1,0 +1,178 @@
+@media (min-width: 320px) and (max-width: 767px) {
+html{    
+    body{
+        width: 100%;
+        max-width: 767px;
+        header{
+            width: 100%;
+            .navbar{
+                .container-fluid{
+                    flex-wrap: wrap;
+                    height: 15rem;
+                    width: 100%;
+                    .logonav{
+                        display: none;
+                    }
+                    .titulo{
+                        margin-top: 3rem;
+                        height: 5rem;
+                        .navbar-brand{
+                            font-size: 3rem;
+                        }
+                    }
+                    .redes{
+                        margin: 0rem 1rem 0 0rem;
+                        padding: 0;
+                        list-style: none;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        li{
+                            svg{
+                                height: 2rem;
+                                width: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .instrumentos{
+                // font-size: 1.5rem;
+                display: none;
+                .nav-item{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        footer{
+            margin: 0;
+            margin-top: auto;
+            .nav-footer{
+                flex-direction: row;
+                flex-wrap: wrap;
+                .logonav{
+                    display: none;
+                }
+                .datos{
+                    justify-content: space-around;
+                    height: 12rem;
+                    padding-left: 1rem;
+                    padding-top: 0.3rem;
+                    p{
+                        font-size: 1.3rem;
+                    }
+                    svg{
+                        height: 2rem;
+                        width: auto;
+                    }
+                    
+                }
+                ul{
+                    font-size: 1.3rem;
+                    width: fit-content;
+                    justify-content: flex-start;
+                    padding-right: 1rem;
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                    li{
+                        margin: 0;
+                    }
+                }
+                h2{
+                    font-size: 3rem;
+                    margin: 0.5rem auto;
+                }
+                
+            }
+            .copyright{
+                font-size: 1.5rem;
+                svg{
+                    height: 1.5rem;    
+                    margin: 0.3rem 0.3rem 0 0.3rem;
+                }
+            }
+        }
+        .main-index p{
+            font-size: 2rem;
+        }
+        .main-faq{
+            h2{
+                font-size: 4rem;
+                display: flex;
+                justify-content: center;
+                padding: 1rem 0;
+            }
+            section{
+                padding-left: 1rem;
+                article{
+                    h3{
+                        font-size: 3rem;
+                        padding-right: 2rem;
+                    }
+                    p{
+                        padding-right: 2rem;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .contacto{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            section{
+                width: 100%;
+                h2{
+                    font-size: 4rem;
+                }
+                p{
+                    font-size: 2rem;
+                    padding: 1rem 1rem 0 1rem;  
+                }
+                .formulario{
+                    width: 100%;
+                    flex-direction: column;
+                    form{
+                        width: 100%;
+                        label{
+                            font-size: 2rem;
+                        }
+                    }
+                    p{
+                        width: 100%;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .main-nosotros{
+            width: 100%;
+            .parallax{
+                width: 100%;
+            }
+            
+            h2{
+                font-size: 5rem;
+            }
+            .nosotros-cuerpo{
+                width: 100%;
+                .tienda1, .tienda2, .tienda4, .tienda5{
+                    display: none;
+                }
+                article{
+                    p{
+                        font-size: 2rem;
+                        width: 100% ;
+                        
+                    }
+                }
+            }
+            #carouselExample{
+                width: 60%;
+                padding: 1%;
+            }
+        }
+    }
+}
+}

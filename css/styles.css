@@ -2,51 +2,61 @@
 header {
   background-color: #592A0F;
   width: 100%;
-  height: 22rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
-header .logonav {
+header .navbar {
+  background-color: #592A0F;
+}
+header .navbar .container-fluid {
+  flex-wrap: wrap;
+}
+header .navbar .container-fluid .logonav {
   height: 16rem;
   width: 16rem;
   margin: 1rem 0 0 1rem;
   border-radius: 50%;
 }
-header .logonav img {
+header .navbar .container-fluid .logonav img {
   height: 16rem;
   width: 16rem;
   border-radius: 50%;
   border: solid;
   border-color: antiquewhite;
 }
-header .titulo {
-  font-size: 7.7rem;
-  margin-top: 5rem;
-}
-header .titulo a {
+header .navbar .container-fluid .titulo a {
   text-decoration: none;
+  font-size: 7.7rem;
   color: antiquewhite;
   border: solid;
   border-color: antiquewhite;
 }
-header .redes {
-  margin: 1rem 4rem 0 9rem;
+header .navbar .container-fluid .redes {
+  margin: 0 4rem 0 9rem;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-header .redes svg {
+header .navbar .container-fluid .redes li {
+  padding: 1rem 0;
+}
+header .navbar .container-fluid .redes li svg {
   color: antiquewhite;
   height: 4rem;
   width: 4rem;
 }
-header .redes svg:hover {
+header .navbar .container-fluid .redes li svg:hover {
   color: #D98C4A;
 }
-header .instrumentos {
+header .navbar .container-fluid .navbar-toggler {
+  background-color: antiquewhite;
+}
+header .navbar .container-fluid #navbarNav {
+  margin: 1% 10% 0;
+  justify-content: center;
+}
+header .navbar .container-fluid #navbarNav .instrumentos {
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -55,14 +65,14 @@ header .instrumentos {
   flex-direction: row;
   justify-content: space-evenly;
 }
-header .instrumentos li {
+header .navbar .container-fluid #navbarNav .instrumentos li {
   margin: 0;
 }
-header .instrumentos li a {
+header .navbar .container-fluid #navbarNav .instrumentos li a {
   text-decoration: none;
   color: antiquewhite;
 }
-header .instrumentos li a:hover {
+header .navbar .container-fluid #navbarNav .instrumentos li a:hover {
   color: #D98C4A;
 }
 
@@ -425,6 +435,12 @@ html body {
 html body p {
   text-align: justify;
 }
+@media (min-width: 1200px) {
+  html .carrusel-nosotros {
+    display: none;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   html body {
     width: 100%;
@@ -433,20 +449,22 @@ html body p {
   html body header {
     width: 100%;
   }
-  html body header div {
+  html body header .navbar .container-fluid {
     flex-wrap: wrap;
     height: 15rem;
     width: 100%;
   }
-  html body header div .logonav {
+  html body header .navbar .container-fluid .logonav {
     display: none;
   }
-  html body header div .titulo {
-    font-size: 3.2rem;
+  html body header .navbar .container-fluid .titulo {
     margin-top: 3rem;
     height: 5rem;
   }
-  html body header div .redes {
+  html body header .navbar .container-fluid .titulo .navbar-brand {
+    font-size: 3rem;
+  }
+  html body header .navbar .container-fluid .redes {
     margin: 0rem 1rem 0 0rem;
     padding: 0;
     list-style: none;
@@ -455,12 +473,15 @@ html body p {
     justify-content: space-evenly;
     width: 100%;
   }
-  html body header div .redes svg {
+  html body header .navbar .container-fluid .redes li svg {
     height: 2rem;
     width: 2rem;
   }
   html body header .instrumentos {
     display: none;
+  }
+  html body header .instrumentos .nav-item {
+    font-size: 1.5rem;
   }
   html body footer {
     margin: 0;
@@ -583,38 +604,38 @@ html body p {
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  html body {
+  body {
     width: 100%;
     max-width: 1200px;
   }
-  html body .navbar {
+  body .navbar {
     display: none;
   }
-  html body header {
+  body header {
     margin: 0;
     width: 100%;
   }
-  html body header div {
+  body header div {
     flex-wrap: wrap;
     height: 15rem;
     width: 100%;
   }
-  html body header div .logonav {
+  body header div .logonav {
     height: 7rem;
     width: 7rem;
     margin: 1rem 0 0 1rem;
     border-radius: 50%;
   }
-  html body header div .logonav img {
+  body header div .logonav img {
     height: 7rem;
     width: 7rem;
   }
-  html body header div .titulo {
+  body header div .titulo {
     font-size: 3.2rem;
     margin-top: 3rem;
     height: 5rem;
   }
-  html body header div .redes {
+  body header div .redes {
     margin: 0rem 1rem 0 0rem;
     padding: 0;
     list-style: none;
@@ -623,98 +644,93 @@ html body p {
     justify-content: space-evenly;
     width: 100%;
   }
-  html body header div .redes li a svg {
+  body header div .redes li a svg {
     height: 2rem;
     width: 2rem;
   }
-  html body header .instrumentos {
+  body header .instrumentos {
     font-size: 1.5rem;
   }
-  html body footer {
+  body footer {
     margin: 0;
     margin-top: auto;
     width: 100%;
   }
-  html body footer .nav-footer .logonav {
+  body footer .nav-footer .logonav {
     height: 7rem;
     width: 7rem;
     margin: 1rem 0 0 1rem;
     border-radius: 50%;
   }
-  html body footer .nav-footer .logonav img {
+  body footer .nav-footer .logonav img {
     height: 7rem;
     width: 7rem;
   }
-  html body footer .nav-footer .datos {
+  body footer .nav-footer .datos {
     justify-content: space-around;
   }
-  html body footer .nav-footer .datos p {
+  body footer .nav-footer .datos p {
     font-size: 1.5rem;
   }
-  html body footer .nav-footer .datos p svg {
+  body footer .nav-footer .datos p svg {
     height: 1.7rem;
   }
-  html body footer .nav-footer ul li {
+  body footer .nav-footer ul li {
     font-size: 1.7rem;
   }
-  html body footer .nav-footer h2 {
+  body footer .nav-footer h2 {
     margin: 0;
     font-size: 2.5rem;
     padding-right: 0.5rem;
   }
-  html body .main-index p {
+  body .main-index p {
     font-size: 3rem;
   }
-  html body .contacto {
+  body .contacto {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  html body .contacto section {
+  body .contacto section {
     width: 100%;
   }
-  html body .contacto section .formulario {
+  body .contacto section .formulario {
     width: 100%;
     flex-direction: column;
   }
-  html body .contacto section .formulario form {
+  body .contacto section .formulario form {
     width: 100%;
   }
-  html body .contacto section .formulario p {
+  body .contacto section .formulario p {
     width: 100%;
   }
-  html body .main-nosotros {
+  body .main-nosotros {
     width: 100%;
   }
-  html body .main-nosotros .parallax {
+  body .main-nosotros .parallax {
     width: 100%;
   }
-  html body .main-nosotros h2 {
+  body .main-nosotros h2 {
     font-size: 5rem;
   }
-  html body .main-nosotros .nosotros-cuerpo {
+  body .main-nosotros .nosotros-cuerpo {
     width: 100%;
   }
-  html body .main-nosotros .nosotros-cuerpo .tienda1, html body .main-nosotros .nosotros-cuerpo .tienda2, html body .main-nosotros .nosotros-cuerpo .tienda4, html body .main-nosotros .nosotros-cuerpo .tienda5 {
+  body .main-nosotros .nosotros-cuerpo .tienda1, body .main-nosotros .nosotros-cuerpo .tienda2, body .main-nosotros .nosotros-cuerpo .tienda4, body .main-nosotros .nosotros-cuerpo .tienda5 {
     display: none;
   }
-  html body .main-nosotros .nosotros-cuerpo article p {
+  body .main-nosotros .nosotros-cuerpo article p {
     font-size: 2rem;
     width: 100%;
   }
-  html body .main-nosotros #carouselExample {
+  body .main-nosotros #carouselExample {
     width: 60%;
     padding: 1%;
   }
-  html body .tienda1, html body .tienda2, html body .tienda4, html body .tienda5 {
+  body .tienda1, body .tienda2, body .tienda4, body .tienda5 {
     display: none;
   }
-  html body .main-faq section {
+  body .main-faq section {
     padding: 0 2%;
-  }
-}
-@media (min-width: 1200px) {
-  html .carrusel-nosotros {
-    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
