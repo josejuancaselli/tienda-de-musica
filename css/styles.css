@@ -359,8 +359,8 @@ footer .copyright svg {
   margin-bottom: 60rem;
 }
 .layout .img2 {
-  height: 140rem;
-  width: auto;
+  height: auto;
+  width: 100%;
   grid-area: img2;
 }
 .layout .gibson {
@@ -403,7 +403,7 @@ footer .copyright svg {
 .layout .GibsonSg p {
   font-size: 3rem;
 }
-.layout .layout .box-img4 {
+.layout .box-img4 {
   height: auto;
   width: 100%;
   grid-area: img4;
@@ -411,7 +411,7 @@ footer .copyright svg {
   flex-direction: column;
   justify-content: center;
 }
-.layout .layout .box-img4 img {
+.layout .box-img4 img {
   height: 42rem;
 }
 .layout .taylor {
@@ -435,7 +435,7 @@ footer .copyright svg {
   padding: 0;
   margin: 0 auto;
   width: auto;
-  max-width: 768rem;
+  max-width: 198rem;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -455,6 +455,12 @@ html body p {
   text-align: justify;
 }
 @media (min-width: 1200px) {
+  html .img-sgm {
+    display: none;
+  }
+  html .img-tlm {
+    display: none;
+  }
   html header .navbar .container-fluid .redes {
     display: none;
   }
@@ -473,15 +479,15 @@ html body p {
   }
   html body header .navbar .container-fluid {
     flex-wrap: wrap;
-    height: 15rem;
     width: 100%;
+    padding: 0;
+    justify-content: space-around;
   }
   html body header .navbar .container-fluid .logonav {
     display: none;
   }
   html body header .navbar .container-fluid .titulo {
-    margin-top: 3rem;
-    height: 5rem;
+    margin: 3% 0;
   }
   html body header .navbar .container-fluid .titulo .navbar-brand {
     font-size: 3rem;
@@ -489,24 +495,30 @@ html body p {
   html body header .navbar .container-fluid .redes-desktop {
     display: none;
   }
-  html body header .navbar .container-fluid .redes {
+  html body header .navbar .container-fluid #navbarNav {
+    margin: 1% 0 0 0;
+    padding: 1% 10% 0;
+    background-color: black;
+  }
+  html body header .navbar .container-fluid #navbarNav .redes {
     margin: 0rem 1rem 0 0rem;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
   }
-  html body header .navbar .container-fluid .redes li svg {
-    height: 2rem;
-    width: 2rem;
+  html body header .navbar .container-fluid #navbarNav .redes li {
+    margin: 0;
+    padding: 1rem 0.5rem;
   }
-  html body header .instrumentos {
-    display: none;
+  html body header .navbar .container-fluid #navbarNav .redes li a svg {
+    height: 1.5rem;
+    width: 1.5rem;
   }
-  html body header .instrumentos .nav-item {
-    font-size: 1.5rem;
+  html body header .navbar .instrumentos .nav-item {
+    font-size: 1.2rem;
   }
   html body footer {
     margin: 0;
@@ -559,7 +571,7 @@ html body p {
     font-size: 2rem;
   }
   html body .main-faq h2 {
-    font-size: 4rem;
+    font-size: 2.7rem;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
@@ -568,7 +580,7 @@ html body p {
     padding-left: 1rem;
   }
   html body .main-faq section article h3 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     padding-right: 2rem;
   }
   html body .main-faq section article p {
@@ -627,53 +639,162 @@ html body p {
     width: 60%;
     padding: 1%;
   }
+  html body .layout {
+    display: flex;
+    flex-direction: column;
+  }
+  html body .layout main h2 {
+    margin: auto;
+    font-size: 2.8rem;
+    padding: 3% 0;
+  }
+  html body .layout main p {
+    padding: 1% 5%;
+    font-size: 2rem;
+  }
+  html body .layout .img1 {
+    width: 20rem;
+    height: auto;
+  }
+  html body .layout .telecaster {
+    margin: 0;
+    padding: 0%;
+  }
+  html body .layout .telecaster h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  html body .layout .telecaster p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+  html body .layout .img2 {
+    width: 20rem;
+    height: auto;
+  }
+  html body .layout .gibson {
+    margin: 0;
+    padding: 0%;
+  }
+  html body .layout .gibson h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  html body .layout .gibson p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+  html body .layout .box-img3 .img3 {
+    display: none;
+  }
+  html body .layout .box-img3 .img-sgm {
+    width: 20rem;
+    height: auto;
+    margin: auto;
+  }
+  html body .layout .GibsonSg {
+    margin: 0;
+    padding: 0%;
+  }
+  html body .layout .GibsonSg h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  html body .layout .GibsonSg p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+  html body .layout .box-img4 .img4 {
+    display: none;
+  }
+  html body .layout .box-img4 .img-tlm {
+    width: 20rem;
+    height: auto;
+  }
+  html body .layout .taylor {
+    margin: 0;
+    padding: 0%;
+  }
+  html body .layout .taylor h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  html body .layout .taylor p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   body {
     width: 100%;
     max-width: 1200px;
   }
-  body .navbar {
+  body .img-tlm {
+    display: none;
+  }
+  body .img-sgm {
     display: none;
   }
   body header {
     margin: 0;
     width: 100%;
   }
-  body header div {
+  body header .navbar .container-fluid {
     flex-wrap: wrap;
-    height: 15rem;
     width: 100%;
+    padding: 0;
   }
-  body header div .logonav {
-    height: 7rem;
-    width: 7rem;
+  body header .navbar .container-fluid .logonav {
+    height: 9rem;
+    width: 9rem;
     margin: 1rem 0 0 1rem;
     border-radius: 50%;
   }
-  body header div .logonav img {
-    height: 7rem;
-    width: 7rem;
+  body header .navbar .container-fluid .logonav img {
+    height: 9rem;
+    width: 9rem;
   }
-  body header div .titulo {
-    font-size: 3.2rem;
-    margin-top: 3rem;
+  body header .navbar .container-fluid .titulo {
+    margin: 3rem auto;
     height: 5rem;
   }
-  body header div .redes {
+  body header .navbar .container-fluid .titulo a {
+    font-size: 4.2rem;
+    margin: 0;
+  }
+  body header .navbar .container-fluid .navbar-toggler {
+    margin: 0 2.4rem;
+  }
+  body header .navbar .container-fluid .redes-desktop {
+    display: none;
+  }
+  body header .navbar .container-fluid #navbarNav {
+    margin: 1% 0 0 0;
+    padding: 1% 10% 0;
+    background-color: black;
+  }
+  body header .navbar .container-fluid #navbarNav .redes {
     margin: 0rem 1rem 0 0rem;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
   }
-  body header div .redes li a svg {
+  body header .navbar .container-fluid #navbarNav .redes li {
+    margin: 0;
+    padding: 1rem 0.5rem;
+  }
+  body header .navbar .container-fluid #navbarNav .redes li a svg {
     height: 2rem;
     width: 2rem;
   }
-  body header .instrumentos {
+  body header .navbar .container-fluid #navbarNav .instrumentos {
     font-size: 1.5rem;
   }
   body footer {
@@ -719,6 +840,9 @@ html body p {
   body .contacto section {
     width: 100%;
   }
+  body .contacto section h2 {
+    font-size: 3.8rem;
+  }
   body .contacto section .formulario {
     width: 100%;
     flex-direction: column;
@@ -736,7 +860,7 @@ html body p {
     width: 100%;
   }
   body .main-nosotros h2 {
-    font-size: 5rem;
+    font-size: 3.8rem;
   }
   body .main-nosotros .nosotros-cuerpo {
     width: 100%;
@@ -755,7 +879,16 @@ html body p {
   body .tienda1, body .tienda2, body .tienda4, body .tienda5 {
     display: none;
   }
+  body .main-faq h2 {
+    font-size: 3.8rem;
+  }
   body .main-faq section {
     padding: 0 2%;
+  }
+  body .main-faq section article h3 {
+    font-size: 3.2rem;
+  }
+  body .main-faq section article p {
+    font-size: 2.8rem;
   }
 }/*# sourceMappingURL=styles.css.map */

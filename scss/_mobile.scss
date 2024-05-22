@@ -1,5 +1,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
-html{    
+html{ 
+    
     body{
         width: 100%;
         max-width: 767px;
@@ -8,45 +9,53 @@ html{
             .navbar{
                 .container-fluid{
                     flex-wrap: wrap;
-                    height: 15rem;
                     width: 100%;
+                    padding: 0;
+                    justify-content: space-around;
                     .logonav{
                         display: none;
                     }
                     .titulo{
-                        margin-top: 3rem;
-                        height: 5rem;
+                        margin: 3% 0;
                         .navbar-brand{
                             font-size: 3rem;
                         }
                     }
+                    
                     .redes-desktop{
                         display: none;
                     }
-                    .redes{
-                        margin: 0rem 1rem 0 0rem;
-                        padding: 0;
-                        list-style: none;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-evenly;
-                        width: 100%;
-                        li{
-                            svg{
-                                height: 2rem;
-                                width: 2rem;
+                    #navbarNav{
+                        margin: 1% 0 0 0;
+                        padding: 1% 10% 0;
+                        background-color: black;
+                        .redes{
+                            margin: 0rem 1rem 0 0rem;
+                            padding: 0;
+                            list-style: none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            width: 100%;
+                            li{
+                                margin: 0;
+                                padding: 1rem 0.5rem;
+                                a{
+                                    svg{
+                                        height: 1.5rem;
+                                        width: 1.5rem;
+                                    }
+                                }
                             }
                         }
                     }
                 }
-            }
-            .instrumentos{
-                // font-size: 1.5rem;
-                display: none;
-                .nav-item{
-                    font-size: 1.5rem;
+                .instrumentos{
+                    .nav-item{
+                        font-size: 1.2rem;
+                    }
                 }
-            }
+                    }
         }
         footer{
             margin: 0;
@@ -101,7 +110,7 @@ html{
         }
         .main-faq{
             h2{
-                font-size: 4rem;
+                font-size: 2.7rem;
                 display: flex;
                 justify-content: center;
                 padding: 1rem 0;
@@ -110,7 +119,7 @@ html{
                 padding-left: 1rem;
                 article{
                     h3{
-                        font-size: 3rem;
+                        font-size: 2.4rem;
                         padding-right: 2rem;
                     }
                     p{
@@ -174,6 +183,106 @@ html{
             #carouselExample{
                 width: 60%;
                 padding: 1%;
+            }
+        }
+        .layout{
+            display: flex;
+            flex-direction: column;          
+            main{
+                h2{
+                    margin: auto;
+                    font-size: 2.8rem;
+                    padding: 3% 0;
+                }
+                p{
+                    padding: 1% 5%;
+                    font-size: 2rem;
+                }
+            }
+            .img1{
+                width: 20rem;
+                height: auto;
+            }
+            .telecaster{
+                
+                margin: 0;
+                padding: 0%;
+                h2{
+                    margin: auto;
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 2rem;
+                    margin: 0;
+                    padding: 1% 5%;
+                }
+            }
+            .img2{
+                width: 20rem;
+                height: auto;
+            }
+            .gibson{
+                margin: 0;
+                padding: 0%;
+                h2{
+                    margin: auto;
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 2rem;
+                    margin: 0;
+                    padding: 1% 5%;
+                }
+            }
+            .box-img3{
+                .img3{
+                    display: none;
+                }
+                .img-sgm{
+                    
+                    // transform: rotate(90deg);
+                    width: 20rem;
+                    height: auto;
+                    margin: auto;
+                }
+            }
+            .GibsonSg{
+                margin: 0;
+                padding: 0%;
+                h2{
+                    margin: auto;
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 2rem;
+                    margin: 0;
+                    padding: 1% 5%;
+                }
+            }
+            .box-img4{
+                .img4{
+                    display: none;
+                }
+                .img-tlm{
+                    
+                    // transform: rotate(270deg);
+                    width: 20rem;
+                    height: auto;
+                }
+            }
+            .taylor{
+                margin: 0;
+                padding: 0%;
+                h2{
+                    margin: auto;
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 2rem;
+                    margin: 0;
+                    padding: 1% 5%;
+                    
+                }
             }
         }
     }

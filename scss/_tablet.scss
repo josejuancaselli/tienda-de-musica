@@ -3,52 +3,74 @@
     body{
         width: 100%;
         max-width: 1200px;
-        .navbar{
+        .img-tlm{
+            display: none;
+        }
+        .img-sgm{
             display: none;
         }
         header{
             margin: 0;
             width: 100%;
-            div{
-                flex-wrap: wrap;
-                height: 15rem;
-                width: 100%;
-                .logonav{
-                    height: 7rem;
-                    width: 7rem;
-                    margin: 1rem 0 0 1rem;
-                    border-radius: 50%;
-                    img{
-                        height: 7rem;
-                        width: 7rem;
-                    }
-                }
-                .titulo{
-                    font-size: 3.2rem;
-                    margin-top: 3rem;
-                    height: 5rem;
-                }
-                .redes{
-                    margin: 0rem 1rem 0 0rem;
-                    padding: 0;
-                    list-style: none;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly;
+            .navbar{
+                .container-fluid{
+                    flex-wrap: wrap;
                     width: 100%;
-                    li{
-                        a{
-                            svg{
-                                height: 2rem;
-                                width: 2rem;
-                            }
+                    padding: 0;
+                    .logonav{
+                        height: 9rem;
+                        width: 9rem;
+                        margin: 1rem 0 0 1rem;
+                        border-radius: 50%;
+                        img{
+                            height: 9rem;
+                            width: 9rem;
                         }
+                    }
+                    .titulo{
+                        margin: 3rem auto;
+                        height: 5rem;
+                        a{
+                            font-size: 4.2rem;
+                            margin: 0;
+                        }
+                    }
+                    .navbar-toggler{
+                        margin: 0 2.4rem;
+                    }
+                    .redes-desktop{
+                        display: none;
                         
                     }
+                    #navbarNav{
+                        margin: 1% 0 0 0;
+                        padding: 1% 10% 0;
+                        background-color: black;
+                        .redes{
+                            
+                            margin: 0rem 1rem 0 0rem;
+                            padding: 0;
+                            list-style: none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            width: 100%;
+                            li{
+                                margin: 0;
+                                padding: 1rem 0.5rem;
+                                a{
+                                    svg{
+                                        height: 2rem;
+                                        width: 2rem;
+                                    }
+                                }
+                            }
+                        }
+                        .instrumentos{
+                            font-size: 1.5rem;
+                        }
+                    }
                 }
-            }
-            .instrumentos{
-                font-size: 1.5rem;
             }
         }
         footer{
@@ -98,6 +120,9 @@
             flex-direction: column;
             section{
                 width: 100%;
+                h2{
+                    font-size: 3.8rem;
+                }
                 .formulario{
                     width: 100%;
                     flex-direction: column;
@@ -117,7 +142,7 @@
             }
             
             h2{
-                font-size: 5rem;
+                font-size: 3.8rem;
             }
             .nosotros-cuerpo{
                 width: 100%;
@@ -141,8 +166,19 @@
             display: none;
         }
         .main-faq{
+            h2{
+                font-size: 3.8rem;
+            }
             section{
                 padding: 0 2%;
+                article{
+                    h3{
+                        font-size: 3.2rem;
+                    }
+                    p{
+                        font-size: 2.8rem;
+                    }
+                }
             }
         }
     }

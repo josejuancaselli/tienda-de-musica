@@ -44,8 +44,8 @@
         }
     }
     .img2{
-        height: 140rem;
-        width: auto;
+        height: auto;
+        width: 100%;
         grid-area: img2;
     }
     .gibson{
@@ -88,7 +88,7 @@
             font-size: 3rem;
         }
     }
-    .layout .box-img4{
+    .box-img4{
         height: auto;
         width: 100%;
         grid-area: img4;
