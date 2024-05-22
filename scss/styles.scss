@@ -36,10 +36,19 @@ html{
         // .navbar{
         //     display: none;
         // }
+        header{
+            .navbar{
+                .container-fluid{
+                    .redes{
+                        display: none
+                    }
+                }
+            }
+        }
         .carrusel-nosotros{
             display: none;
-        
         }
+        
     }
 }
 @import "mobile";

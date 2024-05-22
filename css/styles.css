@@ -29,6 +29,25 @@ header .navbar .container-fluid .titulo a {
   border: solid;
   border-color: antiquewhite;
 }
+header .navbar .container-fluid .redes-desktop {
+  margin: 0 4rem 0 9rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .navbar .container-fluid .redes-desktop li {
+  padding: 1rem 0;
+}
+header .navbar .container-fluid .redes-desktop li svg {
+  color: antiquewhite;
+  height: 4rem;
+  width: 4rem;
+}
+header .navbar .container-fluid .redes-desktop li svg:hover {
+  color: #D98C4A;
+}
 header .navbar .container-fluid .redes {
   margin: 0 4rem 0 9rem;
   padding: 0;
@@ -436,6 +455,9 @@ html body p {
   text-align: justify;
 }
 @media (min-width: 1200px) {
+  html header .navbar .container-fluid .redes {
+    display: none;
+  }
   html .carrusel-nosotros {
     display: none;
   }
@@ -463,6 +485,9 @@ html body p {
   }
   html body header .navbar .container-fluid .titulo .navbar-brand {
     font-size: 3rem;
+  }
+  html body header .navbar .container-fluid .redes-desktop {
+    display: none;
   }
   html body header .navbar .container-fluid .redes {
     margin: 0rem 1rem 0 0rem;

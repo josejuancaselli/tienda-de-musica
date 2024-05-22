@@ -33,6 +33,26 @@ header {
                     border-color: antiquewhite;
                 }
             }
+            .redes-desktop{
+                margin: 0 4rem 0 9rem;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                li{
+                    padding: 1rem 0;
+                    svg {
+                        color: antiquewhite;
+                        height: 4rem;
+                        width: 4rem;
+    
+                        &:hover {
+                            color: #D98C4A;
+                        }
+                    }
+                }
+            }
             .redes {
                 margin: 0 4rem 0 9rem;
                 padding: 0;
