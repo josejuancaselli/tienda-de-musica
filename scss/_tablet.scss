@@ -1,0 +1,278 @@
+@media (min-width: 768px) and (max-width: 1199px){
+    
+    body{
+        width: 100%;
+        max-width: 1200px;
+        
+        header{
+            margin: 0;
+            width: 100%;
+            .navbar{
+                .container-fluid{
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 0;
+                    .logonav{
+                        height: 9rem;
+                        width: 9rem;
+                        margin: 1rem 0 0 1rem;
+                        border-radius: 50%;
+                        img{
+                            height: 9rem;
+                            width: 9rem;
+                        }
+                    }
+                    .titulo{
+                        margin: 3rem auto;
+                        height: 5rem;
+                        a{
+                            font-size: 4.2rem;
+                            margin: 0;
+                        }
+                    }
+                    .navbar-toggler{
+                        margin: 0 2.4rem;
+                    }
+                    .redes-desktop{
+                        display: none;
+                        
+                    }
+                    #navbarNav{
+                        margin: 1% 0 0 0;
+                        padding: 1% 10% 0;
+                        background-color: black;
+                        .redes{
+                            
+                            margin: 0rem 1rem 0 0rem;
+                            padding: 0;
+                            list-style: none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            width: 100%;
+                            li{
+                                margin: 0;
+                                padding: 1rem 0.5rem;
+                                a{
+                                    svg{
+                                        height: 2rem;
+                                        width: 2rem;
+                                    }
+                                }
+                            }
+                        }
+                        .instrumentos{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            margin: 0;
+            margin-top: auto;
+            width: 100%;
+            .nav-footer{
+                .logonav{
+                    height: 7rem;
+                    width: 7rem;
+                    margin: 1rem 0 0 1rem;
+                    border-radius: 50%;
+                    img{
+                        height: 7rem;
+                        width: 7rem;
+                    }
+                }
+                .datos{
+                    justify-content: space-around;
+                    p{
+                        font-size: 1.5rem;
+                        svg{
+                            height: 1.7rem;
+                        }
+                    }
+                }
+                ul{
+                    li{
+                        font-size: 1.7rem;
+                    }
+                }
+                h2{
+                    margin: 0;
+                    font-size: 2.5rem;
+                    padding-right: 0.5rem;
+                }
+            }
+        }
+        .main-index{
+            p{
+                font-size: 3rem;
+            }
+        }
+        .contacto{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            section{
+                width: 100%;
+                h2{
+                    font-size: 3.8rem;
+                }
+                .formulario{
+                    width: 100%;
+                    flex-direction: column;
+                    form{
+                        width: 100%;
+                    }
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .main-nosotros{
+            width: 100%;
+            .parallax{
+                width: 100%;
+            }
+            
+            h2{
+                font-size: 3.8rem;
+            }
+            .nosotros-cuerpo{
+                width: 100%;
+                .tienda1, .tienda2, .tienda4, .tienda5{
+                    display: none;
+                }
+                article{
+                    p{
+                        font-size: 2rem;
+                        width: 100% ;
+                        
+                    }
+                }
+            }
+            #carouselExample{
+                width: 60%;
+                padding: 1%;
+            }
+        }
+        .tienda1, .tienda2, .tienda4, .tienda5{
+            display: none;
+        }
+        .main-faq{
+            h2{
+                font-size: 3.8rem;
+            }
+            section{
+                padding: 0 2%;
+                article{
+                    h3{
+                        font-size: 3.2rem;
+                    }
+                    p{
+                        font-size: 2.8rem;
+                    }
+                }
+            }
+        }
+        .layout{
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 0.3fr repeat(2, 1fr) 0.3fr 0.3fr;
+            row-gap: 10rem;
+            main{
+                
+                grid-column: 2/12;
+                grid-row: 1/2;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .img1{
+                
+                width: 100%;
+                grid-column: 2/5;
+                grid-row: 2/3;
+            }
+            
+            .telecaster{
+                
+                grid-column: 6/12;
+                grid-row: 2/3;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                h2{
+                    padding-bottom: 15%;
+                }
+            }
+            .img2{
+                
+                grid-column: 9/12;
+                grid-row: 3/4;
+                width: 100%;
+            }
+            .gibson{
+                
+                grid-column: 2/8;
+                grid-row: 3/4;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                h2{
+                    padding-bottom: 15%;
+                }
+            }
+            
+            
+            .img3{
+                display: none;
+            }
+            .img-sgm{
+                
+                grid-column: 2/5;
+                grid-row: 4/5;
+                margin: auto;
+                width: 100%;
+            }
+            .GibsonSg{
+                
+                grid-column: 7/12;
+                grid-row: 4/5;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                p{
+                    padding-top: 5%;
+                }
+            }
+            
+            
+            
+            .img4{
+                display: none;
+            }
+            .img-tlm{
+                
+                grid-column: 9/12;
+                grid-row: 5/6;
+                margin: auto;
+                width: 100%;
+            }
+            
+            .taylor{
+                
+                grid-column: 2/7;
+                grid-row: 5/6;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                p{
+                    padding-top: 5%;
+                }
+            }
+        }
+    }
+}

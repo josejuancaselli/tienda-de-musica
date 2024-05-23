@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+@import "header";
+@import "footer";
+@import "index";
+@import "faq";
+@import "nosotros";
+@import "contacto";
+@import "guitarras";
+
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+    max-width: 198rem;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+html{
+    font-size: 62.5%;
+    body{
+        p{
+            text-align: justify;
+        }
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #F2C791;
+    }
+    @media (min-width: 1200px){
+        // .navbar{
+        //     display: none;
+        // }
+        .img-sgm{
+            display: none;
+        }
+        .img-tlm{
+            display: none;
+        }
+        header{
+            .navbar{
+                .container-fluid{
+                    .redes{
+                        display: none
+                    }
+                }
+            }
+        }
+        .carrusel-nosotros{
+            display: none;
+        }
+        
+    }
+}
+@import "mobile";
+@import "tablet";
+
+

@@ -1,0 +1,109 @@
+header {
+    background-color: #592A0F;
+    width: 100%;
+
+    // height: 22rem;
+
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    .navbar {
+        background-color: #592A0F;
+        .container-fluid {
+            flex-wrap: wrap;
+            .logonav {
+                height: 16rem;
+                width: 16rem;
+                margin: 1rem 0 0 1rem;
+                border-radius: 50%;
+                img {
+                    height: 16rem;
+                    width: 16rem;
+                    border-radius: 50%;
+                    border: solid;
+                    border-color: antiquewhite;
+                }
+            }
+            .titulo {
+                a {
+                    text-decoration: none;
+                    font-size: 7.7rem;
+                    color: antiquewhite;
+                    border: solid;
+                    border-color: antiquewhite;
+                }
+            }
+            .redes-desktop{
+                margin: 0 4rem 0 9rem;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                li{
+                    padding: 1rem 0;
+                    svg {
+                        color: antiquewhite;
+                        height: 4rem;
+                        width: 4rem;
+    
+                        &:hover {
+                            color: #D98C4A;
+                        }
+                    }
+                }
+            }
+            .redes {
+                margin: 0 4rem 0 9rem;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                li{
+                    padding: 1rem 0;
+                    svg {
+                        color: antiquewhite;
+                        height: 4rem;
+                        width: 4rem;
+    
+                        &:hover {
+                            color: #D98C4A;
+                        }
+                    }
+                }
+            }
+            .navbar-toggler{
+                background-color: antiquewhite;
+            }
+            #navbarNav {
+                margin: 1% 10% 0;
+                justify-content: center;
+                .instrumentos {
+                    width: 100%;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 3rem;
+    
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+    
+                    li {
+                        margin: 0;
+    
+                        a {
+                            text-decoration: none;
+                            color: antiquewhite;
+    
+                            &:hover {
+                                color: #D98C4A;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
