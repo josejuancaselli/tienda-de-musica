@@ -53,11 +53,16 @@ footer{
             justify-content: center;
             li{
                 margin: 0 auto;
+                &:hover{
+                    color:#D98C4A ;
+                    transform: translatey(-0.1rem);
+                }
                 a{
                     text-decoration: none;
                     color: antiquewhite;
                     &:hover{
                         color:#D98C4A ;
+                        
                     }
                 }
             }
@@ -76,6 +81,10 @@ footer{
                 color: antiquewhite;
                 border: solid;
                 padding: 0.4rem;
+                transition: font-size 0.5s;
+                &:hover {
+                    font-size: 4.2rem;
+                }
             }
         }
         

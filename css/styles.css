@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap");
 header {
-  background-color: #592A0F;
   width: 100%;
 }
 header .navbar {
   background-color: #592A0F;
 }
 header .navbar .container-fluid {
+  padding: 0;
   flex-wrap: wrap;
 }
 header .navbar .container-fluid .logonav {
@@ -28,6 +28,10 @@ header .navbar .container-fluid .titulo a {
   color: antiquewhite;
   border: solid;
   border-color: antiquewhite;
+  transition: font-size 0.5s;
+}
+header .navbar .container-fluid .titulo a:hover {
+  font-size: 8rem;
 }
 header .navbar .container-fluid .redes-desktop {
   margin: 0 4rem 0 9rem;
@@ -59,19 +63,21 @@ header .navbar .container-fluid .redes {
 header .navbar .container-fluid .redes li {
   padding: 1rem 0;
 }
-header .navbar .container-fluid .redes li svg {
+header .navbar .container-fluid .redes li a svg {
   color: antiquewhite;
   height: 4rem;
   width: 4rem;
 }
-header .navbar .container-fluid .redes li svg:hover {
+header .navbar .container-fluid .redes li a svg:hover {
   color: #D98C4A;
 }
 header .navbar .container-fluid .navbar-toggler {
   background-color: antiquewhite;
 }
 header .navbar .container-fluid #navbarNav {
-  margin: 1% 10% 0;
+  background-color: black;
+  padding: 0 10%;
+  margin-bottom: -0.4rem;
   justify-content: center;
 }
 header .navbar .container-fluid #navbarNav .instrumentos {
@@ -93,6 +99,7 @@ header .navbar .container-fluid #navbarNav .instrumentos li a {
 }
 header .navbar .container-fluid #navbarNav .instrumentos li a:hover {
   color: #D98C4A;
+  transform: rotate(1deg);
 }
 
 footer {
@@ -152,6 +159,10 @@ footer .nav-footer ul {
 footer .nav-footer ul li {
   margin: 0 auto;
 }
+footer .nav-footer ul li:hover {
+  color: #D98C4A;
+  transform: translatey(-0.1rem);
+}
 footer .nav-footer ul li a {
   text-decoration: none;
   color: antiquewhite;
@@ -173,6 +184,10 @@ footer .nav-footer h2 a {
   color: antiquewhite;
   border: solid;
   padding: 0.4rem;
+  transition: font-size 0.5s;
+}
+footer .nav-footer h2 a:hover {
+  font-size: 4.2rem;
 }
 footer .copyright {
   background-color: black;
@@ -490,7 +505,7 @@ html body p {
     height: 1.5rem;
     width: 1.5rem;
   }
-  html body header .navbar .instrumentos .nav-item {
+  html body header .navbar .instrumentos li {
     font-size: 1.2rem;
   }
   html body footer {
