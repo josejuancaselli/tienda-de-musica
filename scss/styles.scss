@@ -7,6 +7,7 @@
 @import "nosotros";
 @import "contacto";
 @import "guitarras";
+@import "mixins";
 
 
 
@@ -35,7 +36,10 @@ html{
     }
     @media (min-width: 1200px){
         
-        .img-sgm{
+        // .img-sgm{
+        //     display: none;
+        // }
+        .img2{
             display: none;
         }
         .img-tlm{

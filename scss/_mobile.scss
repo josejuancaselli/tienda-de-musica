@@ -201,15 +201,16 @@ html{
                     font-size: 2rem;
                 }
             }
-            
-                
+            .boxFender{
+                padding: 0;
                 .img1{
                     padding: 10% 0;
-                display: flex;
+                    display: flex;
                     width: 20rem;
                     height: auto;
-                    margin: auto;
                 }
+            }
+                
             
             .telecaster{
                 
@@ -226,13 +227,18 @@ html{
                 }
             }
             
-            
-            .img2{
-                display: flex;
-                padding: 10% 0;
-                width: 20rem;
-                height: auto;
-                margin: auto;
+            .boxGibson{
+                padding: 0;
+                .img2{
+                    display: flex;
+                    padding: 10% 0;
+                    width: 20rem;
+                    height: auto;
+                    margin: auto;
+                }
+                .img-gbm{
+                    display: none;
+                }
             }
             
             .gibson{
@@ -248,16 +254,18 @@ html{
                     padding: 1% 5%;
                 }
             }
-            
-            .img3{
-                display: none;
-            }
-            .img-sgm{
-                display: flex;
-                padding: 10% 0;
-                width: 20rem;
-                height: auto;
-                margin: auto;
+            .boxSg{
+                padding: 0;
+                .img3{
+                    display: none;
+                }
+                .img-sgm{
+                    display: flex;
+                    padding: 10% 0;
+                    width: 20rem;
+                    height: auto;
+                    margin: auto;
+                }
             }
             .GibsonSg{
                 margin: 0 0 10rem 0;
@@ -272,16 +280,18 @@ html{
                     padding: 1% 5%;
                 }
             }
-            
-            .img4{
-                display: none;
-            }
-            .img-tlm{
-                display: flex;
-                padding: 10% 0;
-                width: 20rem;
-                height: auto;
-                margin: auto;
+            .boxTaylor{
+                padding: 0;
+                .img4{
+                    display: none;
+                }
+                .img-tlm{
+                    display: flex;
+                    padding: 10% 0;
+                    width: 20rem;
+                    height: auto;
+                    margin: auto;
+                }
             }
             .taylor{
                 margin: 0;
