@@ -1,4 +1,4 @@
-.main-teclado {
+.main-bajo {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 0.5fr);
@@ -15,7 +15,7 @@
         padding-bottom: 2rem;
     }
 
-    .teclado-txt {
+    .bajo-txt {
         grid-column: 1/13;
         grid-row: 1/2;
         display: flex;
@@ -29,7 +29,7 @@
         }
     }
 
-    .cola-img {
+    .bajo1-img {
         grid-column: 1/6;
         grid-row: 2/3;
         background-color: antiquewhite;
@@ -42,7 +42,7 @@
         }
     }
 
-    .cola-txt {
+    .bajo1-txt {
         padding: 0 1rem;
         grid-column: 6/13;
         grid-row: 2/3;
@@ -52,7 +52,7 @@
         background-color: antiquewhite;
     }
 
-    .casio-img {
+    .bajo2-img {
         grid-column: 9/13;
         grid-row: 3/4;
         background-color: antiquewhite;
@@ -63,16 +63,16 @@
         }
     }
 
-    .casio-txt {
+    .bajo2-txt {
         grid-column: 1/9;
         grid-row: 3/4;
-        @extend .cola-txt;
+        @extend .bajo1-txt;
 
 
 
     }
 
-    .korg-img {
+    .bajo3-img {
         grid-column: 1/6;
         grid-row: 4/5;
         background-color: antiquewhite;
@@ -84,8 +84,8 @@
         }
     }
 
-    .korg-txt {
-        @extend .cola-txt;
+    .bajo3-txt {
+        @extend .bajo1-txt;
 
         grid-column: 6/13;
         grid-row: 4/5;

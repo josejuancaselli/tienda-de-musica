@@ -579,21 +579,21 @@ footer .copyright svg {
     padding: 1% 5%;
   }
 }
-main {
+.main-teclado {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 0.5fr);
   background-color: #F2C791;
   row-gap: 10rem;
 }
-main p {
+.main-teclado p {
   font-size: 2rem;
 }
-main h3 {
+.main-teclado h3 {
   font-size: 3rem;
   padding-bottom: 2rem;
 }
-main .teclado-txt {
+.main-teclado .teclado-txt {
   grid-column: 1/13;
   grid-row: 1/2;
   display: flex;
@@ -601,22 +601,22 @@ main .teclado-txt {
   background-color: antiquewhite;
   padding: 5% 15%;
 }
-main .teclado-txt h2 {
+.main-teclado .teclado-txt h2 {
   padding-bottom: 2rem;
   font-size: 4rem;
 }
-main .cola-img {
+.main-teclado .cola-img {
   grid-column: 1/6;
   grid-row: 2/3;
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
 }
-main .cola-img img {
+.main-teclado .cola-img img {
   padding: 1rem;
   max-width: 100%;
 }
-main .cola-txt, main .korg-txt, main .casio-txt {
+.main-teclado .cola-txt, .main-teclado .korg-txt, .main-teclado .casio-txt {
   padding: 0 1rem;
   grid-column: 6/13;
   grid-row: 2/3;
@@ -625,94 +625,222 @@ main .cola-txt, main .korg-txt, main .casio-txt {
   justify-content: center;
   background-color: antiquewhite;
 }
-main .casio-img {
+.main-teclado .casio-img {
   grid-column: 9/13;
   grid-row: 3/4;
   background-color: antiquewhite;
   padding: 1rem;
 }
-main .casio-img img {
+.main-teclado .casio-img img {
   max-width: 100%;
 }
-main .casio-txt {
+.main-teclado .casio-txt {
   grid-column: 1/9;
   grid-row: 3/4;
 }
-main .korg-img {
+.main-teclado .korg-img {
   grid-column: 1/6;
   grid-row: 4/5;
   background-color: antiquewhite;
   padding: 1rem;
   display: flex;
 }
-main .korg-img img {
+.main-teclado .korg-img img {
   max-width: 100%;
 }
-main .korg-txt {
+.main-teclado .korg-txt {
   grid-column: 6/13;
   grid-row: 4/5;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  main {
+  .main-teclado {
     display: flex;
     flex-direction: column;
     row-gap: unset;
   }
-  main p {
+  .main-teclado p {
     font-size: 1rem;
   }
-  main h3 {
+  .main-teclado h3 {
     font-size: 2.5rem;
   }
-  main .teclado-txt {
+  .main-teclado .teclado-txt {
     font-size: 2rem;
     margin: 0 0 5rem 0;
     padding: 0;
   }
-  main .teclado-txt h2 {
+  .main-teclado .teclado-txt h2 {
     font-size: 2.5rem;
     padding: 3% 0;
   }
-  main .teclado-txt p {
+  .main-teclado .teclado-txt p {
     padding: 1% 5%;
     font-size: 1rem;
   }
-  main .cola-txt, main .casio-txt, main .korg-txt {
+  .main-teclado .cola-txt, .main-teclado .casio-txt, .main-teclado .korg-txt {
     margin: 0 0 5rem 0;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  main {
+  .main-teclado {
     display: flex;
     flex-direction: column;
     row-gap: unset;
   }
-  main p {
-    font-size: 1rem;
+  .main-teclado p {
+    font-size: 2rem;
   }
-  main h3 {
+  .main-teclado h3 {
     font-size: 2.5rem;
   }
-  main .teclado-txt {
+  .main-teclado .teclado-txt {
+    margin: 0 0 5rem 0;
+    padding: 0;
+  }
+  .main-teclado .teclado-txt h2 {
+    font-size: 2.5rem;
+    padding: 3% 0;
+  }
+  .main-teclado .teclado-txt p {
+    padding: 1% 5%;
+  }
+  .main-teclado .cola-txt, .main-teclado .casio-txt, .main-teclado .korg-txt {
+    margin: 0 0 5rem 0;
+  }
+  .main-teclado .casio-img {
+    margin: 0;
+    display: flex;
+  }
+}
+.main-bajo {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  background-color: #F2C791;
+  row-gap: 10rem;
+}
+.main-bajo p {
+  font-size: 2rem;
+}
+.main-bajo h3 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.main-bajo .bajo-txt {
+  grid-column: 1/13;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 5% 15%;
+}
+.main-bajo .bajo-txt h2 {
+  padding-bottom: 2rem;
+  font-size: 4rem;
+}
+.main-bajo .bajo1-img {
+  grid-column: 1/6;
+  grid-row: 2/3;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+.main-bajo .bajo1-img img {
+  padding: 1rem;
+  max-width: 100%;
+}
+.main-bajo .bajo1-txt, .main-bajo .bajo3-txt, .main-bajo .bajo2-txt {
+  padding: 0 1rem;
+  grid-column: 6/13;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.main-bajo .bajo2-img {
+  grid-column: 9/13;
+  grid-row: 3/4;
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+.main-bajo .bajo2-img img {
+  max-width: 100%;
+}
+.main-bajo .bajo2-txt {
+  grid-column: 1/9;
+  grid-row: 3/4;
+}
+.main-bajo .bajo3-img {
+  grid-column: 1/6;
+  grid-row: 4/5;
+  background-color: antiquewhite;
+  padding: 1rem;
+  display: flex;
+}
+.main-bajo .bajo3-img img {
+  max-width: 100%;
+}
+.main-bajo .bajo3-txt {
+  grid-column: 6/13;
+  grid-row: 4/5;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .main-bajo {
+    display: flex;
+    flex-direction: column;
+    row-gap: unset;
+  }
+  .main-bajo p {
+    font-size: 1rem;
+  }
+  .main-bajo h3 {
+    font-size: 2.5rem;
+  }
+  .main-bajo .bajo-txt {
     font-size: 2rem;
     margin: 0 0 5rem 0;
     padding: 0;
   }
-  main .teclado-txt h2 {
+  .main-bajo .bajo-txt h2 {
     font-size: 2.5rem;
     padding: 3% 0;
   }
-  main .teclado-txt p {
+  .main-bajo .bajo-txt p {
     padding: 1% 5%;
     font-size: 1rem;
   }
-  main .cola-txt, main .casio-txt, main .korg-txt {
+  .main-bajo .bajo1-txt, .main-bajo .bajo2-txt, .main-bajo .bajo3-txt {
     margin: 0 0 5rem 0;
   }
-  main .casio-img {
-    margin: 0;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .main-bajo {
     display: flex;
+    flex-direction: column;
+    row-gap: unset;
+  }
+  .main-bajo p {
+    font-size: 2rem;
+  }
+  .main-bajo h3 {
+    font-size: 2.5rem;
+  }
+  .main-bajo .bajo-txt {
+    margin: 0 0 5rem 0;
+    padding: 0;
+  }
+  .main-bajo .bajo-txt h2 {
+    font-size: 2.5rem;
+    padding: 3% 0;
+  }
+  .main-bajo .bajo-txt p {
+    padding: 1% 5%;
+  }
+  .main-bajo .bajo1-txt, .main-bajo .bajo2-txt, .main-bajo .bajo3-txt {
+    margin: 0 0 5rem 0;
   }
 }
 * {

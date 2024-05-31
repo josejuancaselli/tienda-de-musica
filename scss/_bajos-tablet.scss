@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 1199px) {
 
-    .main-teclado {
+    .main-bajo {
         display: flex;
         flex-direction: column;
         row-gap: unset;
@@ -13,8 +13,7 @@
             font-size: 2.5rem;
         }
 
-        .teclado-txt {
-
+        .bajo-txt {
             margin: 0 0 5rem 0;
             padding: 0;
 
@@ -25,19 +24,14 @@
 
             p {
                 padding: 1% 5%;
-
             }
         }
 
-        .cola-txt {
+        .bajo1-txt {
             margin: 0 0 5rem 0;
 
         }
 
-        .casio-img {
-            margin: 0;
-            display: flex;
-        }
     }
 
 }
