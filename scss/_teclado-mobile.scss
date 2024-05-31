@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        row-gap: unset;
+
+        p {
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+        }
+
+        .teclado-txt {
+            font-size: 2rem;
+            margin: 0 0 5rem 0;
+            padding: 0;
+
+            h2 {
+                font-size: 2.5rem;
+                padding: 3% 0;
+            }
+
+            p {
+                padding: 1% 5%;
+                font-size: 1rem;
+            }
+        }
+
+        .cola-txt {
+            margin: 0 0 5rem 0;
+
+        }
+
+    }
+
+}

@@ -460,6 +460,261 @@ footer .copyright svg {
   padding-bottom: 15%;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    row-gap: unset;
+  }
+  .layout main {
+    margin: 0 0 10rem 0;
+  }
+  .layout main h2 {
+    margin: auto;
+    font-size: 2.8rem;
+    padding: 3% 0;
+  }
+  .layout main p {
+    padding: 1% 5%;
+    font-size: 1rem;
+  }
+  .layout .boxFender {
+    padding: 0;
+  }
+  .layout .boxFender .img1 {
+    padding: 10% 0;
+    display: flex;
+    width: 20rem;
+    height: auto;
+  }
+  .layout .telecaster {
+    margin: 0 0 10rem 0;
+    padding: 0%;
+  }
+  .layout .telecaster h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  .layout .telecaster p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+  .layout .boxGibson {
+    padding: 0;
+  }
+  .layout .boxGibson .img2 {
+    display: flex;
+    padding: 10% 0;
+    width: 20rem;
+    height: auto;
+    margin: auto;
+  }
+  .layout .boxGibson .img-gbm {
+    display: none;
+  }
+  .layout .gibson {
+    margin: 0 0 10rem 0;
+    padding: 0%;
+  }
+  .layout .gibson h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  .layout .gibson p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+  .layout .boxSg {
+    padding: 0;
+  }
+  .layout .boxSg .img3 {
+    display: none;
+  }
+  .layout .boxSg .img-sgm {
+    display: flex;
+    padding: 10% 0;
+    width: 20rem;
+    height: auto;
+    margin: auto;
+  }
+  .layout .GibsonSg {
+    margin: 0 0 10rem 0;
+    padding: 0%;
+  }
+  .layout .GibsonSg h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  .layout .GibsonSg p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+  .layout .boxTaylor {
+    padding: 0;
+  }
+  .layout .boxTaylor .img4 {
+    display: none;
+  }
+  .layout .boxTaylor .img-tlm {
+    display: flex;
+    padding: 10% 0;
+    width: 20rem;
+    height: auto;
+    margin: auto;
+  }
+  .layout .taylor {
+    margin: 0;
+    padding: 0%;
+  }
+  .layout .taylor h2 {
+    margin: auto;
+    font-size: 3rem;
+  }
+  .layout .taylor p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1% 5%;
+  }
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  background-color: #F2C791;
+  row-gap: 10rem;
+}
+main p {
+  font-size: 2rem;
+}
+main h3 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+main .teclado-txt {
+  grid-column: 1/13;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 5% 15%;
+}
+main .teclado-txt h2 {
+  padding-bottom: 2rem;
+  font-size: 4rem;
+}
+main .cola-img {
+  grid-column: 1/6;
+  grid-row: 2/3;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+main .cola-img img {
+  padding: 1rem;
+  max-width: 100%;
+}
+main .cola-txt, main .korg-txt, main .casio-txt {
+  padding: 0 1rem;
+  grid-column: 6/13;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+main .casio-img {
+  grid-column: 9/13;
+  grid-row: 3/4;
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+main .casio-img img {
+  max-width: 100%;
+}
+main .casio-txt {
+  grid-column: 1/9;
+  grid-row: 3/4;
+}
+main .korg-img {
+  grid-column: 1/6;
+  grid-row: 4/5;
+  background-color: antiquewhite;
+  padding: 1rem;
+  display: flex;
+}
+main .korg-img img {
+  max-width: 100%;
+}
+main .korg-txt {
+  grid-column: 6/13;
+  grid-row: 4/5;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    row-gap: unset;
+  }
+  main p {
+    font-size: 1rem;
+  }
+  main h3 {
+    font-size: 2.5rem;
+  }
+  main .teclado-txt {
+    font-size: 2rem;
+    margin: 0 0 5rem 0;
+    padding: 0;
+  }
+  main .teclado-txt h2 {
+    font-size: 2.5rem;
+    padding: 3% 0;
+  }
+  main .teclado-txt p {
+    padding: 1% 5%;
+    font-size: 1rem;
+  }
+  main .cola-txt, main .casio-txt, main .korg-txt {
+    margin: 0 0 5rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    row-gap: unset;
+  }
+  main p {
+    font-size: 1rem;
+  }
+  main h3 {
+    font-size: 2.5rem;
+  }
+  main .teclado-txt {
+    font-size: 2rem;
+    margin: 0 0 5rem 0;
+    padding: 0;
+  }
+  main .teclado-txt h2 {
+    font-size: 2.5rem;
+    padding: 3% 0;
+  }
+  main .teclado-txt p {
+    padding: 1% 5%;
+    font-size: 1rem;
+  }
+  main .cola-txt, main .casio-txt, main .korg-txt {
+    margin: 0 0 5rem 0;
+  }
+  main .casio-img {
+    margin: 0;
+    display: flex;
+  }
+}
 * {
   padding: 0;
   margin: 0 auto;
@@ -657,7 +912,10 @@ html body p {
   html body .main-nosotros .nosotros-cuerpo {
     width: 100%;
   }
-  html body .main-nosotros .nosotros-cuerpo .tienda1, html body .main-nosotros .nosotros-cuerpo .tienda2, html body .main-nosotros .nosotros-cuerpo .tienda4, html body .main-nosotros .nosotros-cuerpo .tienda5 {
+  html body .main-nosotros .nosotros-cuerpo .tienda1,
+  html body .main-nosotros .nosotros-cuerpo .tienda2,
+  html body .main-nosotros .nosotros-cuerpo .tienda4,
+  html body .main-nosotros .nosotros-cuerpo .tienda5 {
     display: none;
   }
   html body .main-nosotros .nosotros-cuerpo article p {
@@ -667,123 +925,6 @@ html body p {
   html body .main-nosotros #carouselExample {
     width: 60%;
     padding: 1%;
-  }
-  html body .layout {
-    display: flex;
-    flex-direction: column;
-    grid-row-gap: 0;
-  }
-  html body .layout main {
-    margin: 0 0 10rem 0;
-  }
-  html body .layout main h2 {
-    margin: auto;
-    font-size: 2.8rem;
-    padding: 3% 0;
-  }
-  html body .layout main p {
-    padding: 1% 5%;
-    font-size: 2rem;
-  }
-  html body .layout .boxFender {
-    padding: 0;
-  }
-  html body .layout .boxFender .img1 {
-    padding: 10% 0;
-    display: flex;
-    width: 20rem;
-    height: auto;
-  }
-  html body .layout .telecaster {
-    margin: 0 0 10rem 0;
-    padding: 0%;
-  }
-  html body .layout .telecaster h2 {
-    margin: auto;
-    font-size: 3rem;
-  }
-  html body .layout .telecaster p {
-    font-size: 2rem;
-    margin: 0;
-    padding: 1% 5%;
-  }
-  html body .layout .boxGibson {
-    padding: 0;
-  }
-  html body .layout .boxGibson .img2 {
-    display: flex;
-    padding: 10% 0;
-    width: 20rem;
-    height: auto;
-    margin: auto;
-  }
-  html body .layout .boxGibson .img-gbm {
-    display: none;
-  }
-  html body .layout .gibson {
-    margin: 0 0 10rem 0;
-    padding: 0%;
-  }
-  html body .layout .gibson h2 {
-    margin: auto;
-    font-size: 3rem;
-  }
-  html body .layout .gibson p {
-    font-size: 2rem;
-    margin: 0;
-    padding: 1% 5%;
-  }
-  html body .layout .boxSg {
-    padding: 0;
-  }
-  html body .layout .boxSg .img3 {
-    display: none;
-  }
-  html body .layout .boxSg .img-sgm {
-    display: flex;
-    padding: 10% 0;
-    width: 20rem;
-    height: auto;
-    margin: auto;
-  }
-  html body .layout .GibsonSg {
-    margin: 0 0 10rem 0;
-    padding: 0%;
-  }
-  html body .layout .GibsonSg h2 {
-    margin: auto;
-    font-size: 3rem;
-  }
-  html body .layout .GibsonSg p {
-    font-size: 2rem;
-    margin: 0;
-    padding: 1% 5%;
-  }
-  html body .layout .boxTaylor {
-    padding: 0;
-  }
-  html body .layout .boxTaylor .img4 {
-    display: none;
-  }
-  html body .layout .boxTaylor .img-tlm {
-    display: flex;
-    padding: 10% 0;
-    width: 20rem;
-    height: auto;
-    margin: auto;
-  }
-  html body .layout .taylor {
-    margin: 0;
-    padding: 0%;
-  }
-  html body .layout .taylor h2 {
-    margin: auto;
-    font-size: 3rem;
-  }
-  html body .layout .taylor p {
-    font-size: 2rem;
-    margin: 0;
-    padding: 1% 5%;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
