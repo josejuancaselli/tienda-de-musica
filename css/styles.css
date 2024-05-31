@@ -22,6 +22,9 @@ header .navbar .container-fluid .logonav img {
   border: solid;
   border-color: antiquewhite;
 }
+header .navbar .container-fluid .titulo {
+  margin: 0 13rem;
+}
 header .navbar .container-fluid .titulo a {
   text-decoration: none;
   font-size: 7.7rem;
