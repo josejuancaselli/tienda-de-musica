@@ -2,16 +2,16 @@
 
 @import "header";
 @import "footer";
-@import "/scss/paginas/index";
-@import "/scss/paginas/faq";
-@import "/scss/paginas/nosotros";
-@import "/scss/paginas/contacto";
-@import "/scss/paginas/guitarras";
+@import "index";
+@import "faq";
+@import "nosotros";
+@import "contacto";
+@import "guitarras";
 @import "guitarras-mobile";
-@import "/scss/paginas/teclado";
+@import "teclado";
 @import "teclado-mobile";
 @import "teclado-tablet";
-@import "/scss/paginas/bajos";
+@import "bajos";
 @import "bajos-mobile";
 @import "bajos-tablet";
 
