@@ -1052,6 +1052,7 @@ html body p {
   html body .main-nosotros .nosotros-cuerpo article p {
     font-size: 2rem;
     width: 100%;
+    margin: 1rem 0;
   }
   html body .main-nosotros #carouselExample {
     width: 60%;
