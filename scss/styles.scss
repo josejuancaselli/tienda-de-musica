@@ -3,15 +3,15 @@
 @import "header";
 @import "footer";
 @import "index";
-@import "faq";
-@import "nosotros";
-@import "contacto";
-@import "guitarras";
+@import "/scss/paginas/faq";
+@import "/scss/paginas/nosotros";
+@import "/scss/paginas/contacto";
+@import "/scss/paginas/guitarras";
 @import "guitarras-mobile";
-@import "teclado";
+@import "/scss/paginas/teclado";
 @import "teclado-mobile";
 @import "teclado-tablet";
-@import "bajos";
+@import "/scss/paginas/bajos";
 @import "bajos-mobile";
 @import "bajos-tablet";
 
