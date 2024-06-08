@@ -1,0 +1,66 @@
+html{
+    body{
+        header {
+            width: 100%;
+
+            .navbar {
+                .container-fluid {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 0;
+                    justify-content: space-around;
+
+                    .logonav {
+                        display: none;
+                    }
+
+                    .titulo {
+                        margin: 3% 0;
+
+                        .navbar-brand {
+                            font-size: 3rem;
+                        }
+                    }
+
+                    .redes-desktop {
+                        display: none;
+                    }
+
+                    #navbarNav {
+                        margin: 1% 0 0 0;
+                        padding: 1% 10% 0;
+                        background-color: black;
+
+                        .redes {
+                            margin: 0rem 1rem 0 0rem;
+                            padding: 0;
+                            list-style: none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            width: 100%;
+
+                            li {
+                                margin: 0;
+                                padding: 1rem 0.5rem;
+
+                                a {
+                                    svg {
+                                        height: 1.5rem;
+                                        width: 1.5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .instrumentos {
+                    li {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}

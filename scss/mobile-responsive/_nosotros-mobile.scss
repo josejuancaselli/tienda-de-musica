@@ -1,0 +1,37 @@
+.main-nosotros {
+    width: 100%;
+
+    .parallax {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    .nosotros-cuerpo {
+        width: 100%;
+
+        .tienda1,
+        .tienda2,
+        .tienda4,
+        .tienda5 {
+            display: none;
+        }
+
+        article {
+            p {
+                font-size: 2rem;
+                width: 100%;
+                margin: 1rem 0;
+
+
+            }
+        }
+    }
+
+    #carouselExample {
+        width: 60%;
+        padding: 1%;
+    }
+}
